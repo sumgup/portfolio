@@ -17,6 +17,7 @@ module.exports = function(grunt) {
                 dest : "dist/js/index.js"
             }
         },
+
         
         cssmin : {
             target : {
@@ -47,6 +48,17 @@ module.exports = function(grunt) {
             },
         },
 
+        watch: {
+            sass:{
+                files: ['scss/*.scss'],
+                tasks: ['sass', 'cssmin']
+            },
+            html: {
+                files: ['index.html'],
+                tasks: ['htmlmin']
+            }
+        },
+
         sass: {
             dist: {
                 options: {                 
@@ -59,14 +71,14 @@ module.exports = function(grunt) {
         }
     });
 
-    // Load the plugin that provides the task.
     grunt.loadNpmTasks('grunt-contrib-sass');
+    grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-uglify-es');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
     grunt.loadNpmTasks('grunt-contrib-copy');
 
     // Default task(s).
-    grunt.registerTask('default', ['copy','htmlmin','uglify','cssmin','sass']);
+    grunt.registerTask('default', ['copy','htmlmin','uglify','cssmin','sass','watch']);
 
 };
