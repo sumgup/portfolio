@@ -88,6 +88,7 @@ module.exports = function(grunt) {
 
     // Default task(s).
     grunt.registerTask('default', ['copy','htmlmin','uglify','cssmin','sass','watch']);
+    // adding task for gh-pages
     grunt.registerTask ('deploy', ['gh-pages']);
 
 
