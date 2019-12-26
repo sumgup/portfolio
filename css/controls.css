@@ -8,6 +8,8 @@
     font-family: courier, monospace;
     border: 1px solid #dedede;
     align-self: center;
+    margin-top: 10px;
+
   }
   .list li {
     list-style: none;
