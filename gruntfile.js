@@ -45,6 +45,8 @@ module.exports = function(grunt) {
                     // includes files within path
                     {expand: true, src: ['img/*'], dest: 'dist', filter: 'isFile'},
                     {expand: true, src: ['css/*'], dest: 'dist', filter: 'isFile'},
+                    {expand: true, src: ['js/*'], dest: 'dist', filter: 'isFile'},
+                    {expand: true, src: ['*.html'], dest: 'dist', filter: 'isFile'},
 
                    ],
             },
@@ -52,7 +54,7 @@ module.exports = function(grunt) {
 
         watch: {
             sass:{
-                files: ['scss/*.scss'],
+                files: ['scss/*.scss','*.html'],
                 tasks: ['sass', 'cssmin']
             },
             html: {
@@ -89,7 +91,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-copy');
 
     // Default task(s).
-    grunt.registerTask('default', ['copy','htmlmin','uglify','cssmin','sass','watch']);
+    grunt.registerTask('default', ['copy','htmlmin','uglify','watch']);
     grunt.registerTask ('deploy', ['gh-pages']);
 
 
