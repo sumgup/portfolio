@@ -53,12 +53,9 @@ module.exports = function(grunt) {
         },
 
         watch: {
-            sass:{
-                files: ['scss/*.scss','*.html'],
-                tasks: ['sass', 'cssmin']
-            },
+           
             html: {
-                files: ['index.html'],
+                files: ['index.html','fitnessappcasestudy.html'],
                 tasks: ['htmlmin']
             }
         },
