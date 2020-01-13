@@ -7,6 +7,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -26,12 +29,53 @@
             /* font: 1 rem/1.5 var(--font-family-sans-serif); */
         }
 
-        .parallax {
-            background: url('img/problembkg.jpg') no-repeat center;
-            background-size: cover;
-            background-attachment: fixed;
+
+
+        .herocontainer {
             position: relative;
-            height: 600px;
+            width: 360px;
+            height: 640px;
+            margin-top: 150px;
+            background: rgba(0, 0, 0, 0.05);
+            transform: rotate(0deg) skew(0deg) scale(0.5);
+            transition: 0.5s;
+        }
+
+        .herocontainer img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            transition: 0.5s;
+        }
+
+        .herocontainer img:nth-child(4) {
+            transform: translate(160px, -160px);
+            opacity: 1;
+        }
+
+        .herocontainer img:nth-child(3) {
+            transform: translate(120px, -120px);
+            opacity: 0.8;
+        }
+
+        .herocontainer img:nth-child(2) {
+            transform: translate(80px, -80px);
+            opacity: 0.6;
+        }
+
+        .herocontainer img:nth-child(1) {
+            transform: translate(40px, -40px);
+            opacity: 0.4;
+        }
+
+        .bd-highlight {
+            background-color: rgba(86, 61, 124, 0.15);
+            border: 5px solid rgba(86, 61, 124, 0.15);
+        }
+
+        .mb3 {
+            background-color: red;
+            border: 5px brown;
         }
     </style>
 
@@ -41,13 +85,33 @@
 
 
 
-    <div class="container">
+    <div class="container-fluid" style="padding: 0px;">
+
+        <section id="hero">
+
+            <div class="vw-100 vh-100 d-flex flex-column bd-highlight mb-3"
+                style="height: 200px; background-color: aqua;">
+                <div class="p-2 bd-highlight align-self-center">Hero Image</div>
+                <div style="background-color: coral;"  class="mb-auto align-items-end">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                        <path fill="#273036" fill-opacity="0.6"
+                            d="M0,192L48,165.3C96,139,192,85,288,96C384,107,480,181,576,224C672,267,768,277,864,272C960,267,1056,245,1152,208C1248,171,1344,117,1392,90.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+
+
+
+
+            <!-- <img src="https://s3.ca-central-1.amazonaws.com/image-web-frankie/PhoneScreen.jpg">
+        <img src="https://s3.ca-central-1.amazonaws.com/image-web-frankie/PhoneScreen.jpg">
+        <img src="https://s3.ca-central-1.amazonaws.com/image-web-frankie/PhoneScreen.jpg">
+        <img src="https://s3.ca-central-1.amazonaws.com/image-web-frankie/PhoneScreen.jpg">  -->
+
+        </section>
 
         <section id="problemsection">
-
-            <div class="parallax">
-                LATEST
-            </div>
 
             <div class="row">
                 <div style="background-color: white;" class="col ">
@@ -86,9 +150,6 @@
 
             <!-- End of problem section -->
         </section>
-
-
-       
 
         <section id="infosection">
             <div class="row">
@@ -537,8 +598,12 @@
 
             <div class="container">
                 <div class="row">
-                    <div class="embed-responsive embed-responsive-21by9">
-                        <iframe class="embed-responsive-item" src="img/Storyboard.mp4"></iframe>
+
+
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <video controls="true" class="embed-responsive-item">
+                            <source src="img/Storyboard.mp4" type="video/mp4" />
+                        </video>
                     </div>
                 </div>
             </div>
@@ -663,6 +728,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>
