@@ -29,7 +29,29 @@
             /* font: 1 rem/1.5 var(--font-family-sans-serif); */
         }
 
-        
+        blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 2px;
+  }
+  blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 2em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+  blockquote p {
+    display: inline;
+  }
+
+       
     </style>
 
 </head>
@@ -38,29 +60,52 @@
 
 
 
-    <div class="container">
+    <div class="container-fluid" style="padding: 0px;">
+
+        <section style="background-color: transparent" id="hero">
+
+            <div style="width:100vw; height:95vh; background-color: transparent; " class="container-fluid d-flex align-items-start flex-column">
+                <div  class="mb-auto bd-highlight align-self-center mt-3">
+                      <img style="height:430px ;width: 235px; " 
+                    src="img/hero.png"  alt="MyFitnessStory">
+                            
+                </div>
+                
+                <div style="background-color: transparent;"
+                class="align-items-start p-0 container-fluid align-self-end">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                        <path fill="#273036" fill-opacity="0.6"
+                            d="M0,192L48,165.3C96,139,192,85,288,96C384,107,480,181,576,224C672,267,768,277,864,272C960,267,1056,245,1152,208C1248,171,1344,117,1392,90.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                        </path>
+                    </svg>
+                   
+                </div>
+            </div>
+
+        </section>
 
         <section id="problemsection">
 
-          
-
             <div class="row">
-                <div style="background-color: white;" class="col ">
-                    <img class="mx-auto d-block" src="img/temp.jpg" alt="mobile image" />
-                </div>
+               
                 <div class="col" style="background-color: whitesmoke;">
-                    <h1 style="margin: 1rem;" class="text-right text-nowrap font-weight-bold">MyFitnessStory
+                    <h1 style="margin: 1rem;" class="text-center text-nowrap font-weight-bold">MyFitnessStory
                     </h1>
 
                     <section style="margin: 2.5rem;" class="problem">
                         <h2 class="font-weight-normal">Problem</h2>
                         <p>
-                            Why is it that 95% of world population have health problems and are unable to
-                            give time to there personal Fitness?
-                            Whats holding them ?
+                            <p>
+                                <blockquote>
+                                  Insufficient physical activity is one of the 10 leading risk factors for global mortality-
+                                  <a href="https://www.who.int/gho/ncd/risk_factors/physical_activity_text/en/">WHO</a>
+                                </blockquote>
+                  
+                                <h3 class="pt-2 ">What is holding us to become fit?</h3>
+                              </p>
                         </p>
 
-                        <h2 style="margin-top: 2rem;" class="font-weight-normal">Approach</h2>
+                        <h2  class="font-weight-normal pt-5">Approach</h2>
                         <p>
                             This case study is an attempt to look into a problem in completety a new way, took a
                             human centred
@@ -69,7 +114,7 @@
                                 thinking</abbr> for understanding and attempting to solve it.
                         </p>
 
-                        <h2 style="margin-top: 2rem;" class="font-weight-normal">My Role</h2>
+                        <h2  class="font-weight-normal pt-5">My Role</h2>
 
                         <p>
                             My role was to drive the case study by recruiting participants,
@@ -82,14 +127,11 @@
             <!-- End of problem section -->
         </section>
 
-
-       
-
         <section id="infosection">
             <div class="row">
                 <div style="background-color: whitesmoke;" class="col ">
 
-                    <p class="mt-3 font-italic">
+                    <p class="text-center mt-3 font-italic">
                         <i class="fa fa-info-circle fa-lg"></i>
 
                         UX Projects or Design thinking do not follow a linear methodology, but for
@@ -514,7 +556,7 @@
             </div>
 
 
-            <div class="container"> 
+            <div class="container">
                 <div class="row ">
                     <p class="lead">
                         Developing one of the ideas as prototype. Developing a
@@ -532,11 +574,11 @@
 
             <div class="container">
                 <div class="row">
-                   
+
 
                     <div class="embed-responsive embed-responsive-16by9">
                         <video controls="true" class="embed-responsive-item">
-                          <source src="img/Storyboard.mp4" type="video/mp4" />
+                            <source src="img/Storyboard.mp4" type="video/mp4" />
                         </video>
                     </div>
                 </div>
@@ -663,20 +705,7 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
 
-        <!-- ScrollMagic Begin -->
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
-
-        <script src="js/main.js"></script>
-
-        <!-- ScrollMagic End -->
 </body>
 
 </html>
