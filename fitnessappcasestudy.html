@@ -26,32 +26,62 @@
     <style>
         body {
             font-family: 'Lato', sans-serif !important;
-            /* font: 1 rem/1.5 var(--font-family-sans-serif); */
+
         }
 
-        blockquote {
-    background: #f9f9f9;
-    border-left: 10px solid #ccc;
-    margin: 1.5em 10px;
-    padding: 0.5em 10px;
-    quotes: "\201C""\201D""\2018""\2019";
-    font-weight: bold;
-    font-style: italic;
-    letter-spacing: 2px;
-  }
-  blockquote:before {
-    color: #ccc;
-    content: open-quote;
-    font-size: 2em;
-    line-height: 0.1em;
-    margin-right: 0.25em;
-    vertical-align: -0.4em;
-  }
-  blockquote p {
-    display: inline;
-  }
+        p {
+            letter-spacing: 0.07em;
+            line-height: 2em;
+            font-size: 1.15em;
+        }
 
-       
+        h1 {
+            background: linear-gradient(to right, black, grey);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+     
+        blockquote {
+            background: darkgray;
+            border-left: 10px solid #ccc;
+            padding: 1em 10px;
+            quotes: "\201C""\201D""\2018""\2019";
+            font-size: 1.5em;
+            font-weight: bold;
+            font-style: italic;
+            letter-spacing: 2px;
+        }
+
+        blockquote:before {
+            color: #000;
+            content: open-quote;
+            font-size: 2em;
+            line-height: 0.1em;
+            margin-right: 0.25em;
+            vertical-align: -0.4em;
+        }
+
+        blockquote:after {
+            color: #000;
+            content: close-quote;
+            font-size: 2em;
+            line-height: 0.1em;
+            margin-right: 0.25em;
+            vertical-align: -0.4em;
+        }
+
+        blockquote p {
+            display: inline;
+        }
+
+        blockquote a {
+            color: white;
+        }
+
+        .footerp {
+            font-size: 0.9em;
+        }
     </style>
 
 </head>
@@ -60,61 +90,39 @@
 
 
 
-    <div class="container-fluid" style="padding: 0px;">
+    <div class="container-fluid">
 
-        <section style="background-color: transparent" id="hero">
-
-            <div style="width:100vw; height:95vh; background-color: transparent; " class="container-fluid d-flex align-items-start flex-column">
-                <div  class="mb-auto bd-highlight align-self-center mt-3">
-                      <img style="height:430px ;width: 235px; " 
-                    src="img/hero.png"  alt="MyFitnessStory">
-                            
-                </div>
-                
-                <div style="background-color: transparent;"
-                class="align-items-start p-0 container-fluid align-self-end">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                        <path fill="#273036" fill-opacity="0.6"
-                            d="M0,192L48,165.3C96,139,192,85,288,96C384,107,480,181,576,224C672,267,768,277,864,272C960,267,1056,245,1152,208C1248,171,1344,117,1392,90.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-                        </path>
-                    </svg>
-                   
-                </div>
-            </div>
-
-        </section>
 
         <section id="problemsection">
 
             <div class="row">
-               
-                <div class="col" style="background-color: whitesmoke;">
-                    <h1 style="margin: 1rem;" class="text-center text-nowrap font-weight-bold">MyFitnessStory
+
+                <div class="col">
+                    <h1 style="letter-spacing: 3px;"
+                        class="text-center text-nowrap font-weight-bold mt-4 underlinedheading">MyFitnessStory
                     </h1>
 
-                    <section style="margin: 2.5rem;" class="problem">
-                        <h2 class="font-weight-normal">Problem</h2>
-                        <p>
-                            <p>
-                                <blockquote>
-                                  Insufficient physical activity is one of the 10 leading risk factors for global mortality-
-                                  <a href="https://www.who.int/gho/ncd/risk_factors/physical_activity_text/en/">WHO</a>
-                                </blockquote>
-                  
-                                <h3 class="pt-2 ">What is holding us to become fit?</h3>
-                              </p>
-                        </p>
+                    <section class="problem ml-3 mt-5">
+                        <h2 class="font-weight-bold ">Problem</h2>
+                        <blockquote class="mr-4">
+                            Insufficient physical activity is one of the 10 leading risk factors for global
+                            mortality-
+                            <a href="https://www.who.int/gho/ncd/risk_factors/physical_activity_text/en/">WHO</a>
+                        </blockquote>
 
-                        <h2  class="font-weight-normal pt-5">Approach</h2>
+                        <h3 style="font-size: 2.8em;" class="pt-2 text-center">What is holding us
+                            to become fit?</h3>
+
+                        <h2 class="font-weight-bold pt-4">Approach</h2>
                         <p>
-                            This case study is an attempt to look into a problem in completety a new way, took a
+                            Took a
                             human centred
                             design approach
                             i.e. <abbr title="Hasso-Plattner Institute of Design at Stanford (d.school)">Design
-                                thinking</abbr> for understanding and attempting to solve it.
+                                Thinking</abbr> for understanding and attempting to solve it.
                         </p>
 
-                        <h2  class="font-weight-normal pt-5">My Role</h2>
+                        <h2 class="font-weight-bold mt-4">My Role</h2>
 
                         <p>
                             My role was to drive the case study by recruiting participants,
@@ -129,9 +137,9 @@
 
         <section id="infosection">
             <div class="row">
-                <div style="background-color: whitesmoke;" class="col ">
+                <div  class="col ">
 
-                    <p class="text-center mt-3 font-italic">
+                    <p class="text-center mt-3 font-italic footerp">
                         <i class="fa fa-info-circle fa-lg"></i>
 
                         UX Projects or Design thinking do not follow a linear methodology, but for
