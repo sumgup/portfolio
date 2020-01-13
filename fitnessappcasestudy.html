@@ -26,119 +26,102 @@
     <style>
         body {
             font-family: 'Lato', sans-serif !important;
-            /* font: 1 rem/1.5 var(--font-family-sans-serif); */
+
         }
 
-
-
-        .herocontainer {
-            position: relative;
-            width: 360px;
-            height: 640px;
-            margin-top: 150px;
-            background: rgba(0, 0, 0, 0.05);
-            transform: rotate(0deg) skew(0deg) scale(0.5);
-            transition: 0.5s;
+        p {
+            letter-spacing: 0.07em;
+            line-height: 2em;
+            font-size: 1.15em;
         }
 
-        .herocontainer img {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            transition: 0.5s;
+        h1 {
+            background: linear-gradient(to right, black, grey);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
 
-        .herocontainer img:nth-child(4) {
-            transform: translate(160px, -160px);
-            opacity: 1;
+     
+        blockquote {
+            background: darkgray;
+            border-left: 10px solid #ccc;
+            padding: 1em 10px;
+            quotes: "\201C""\201D""\2018""\2019";
+            font-size: 1.5em;
+            font-weight: bold;
+            font-style: italic;
+            letter-spacing: 2px;
         }
 
-        .herocontainer img:nth-child(3) {
-            transform: translate(120px, -120px);
-            opacity: 0.8;
+        blockquote:before {
+            color: #000;
+            content: open-quote;
+            font-size: 2em;
+            line-height: 0.1em;
+            margin-right: 0.25em;
+            vertical-align: -0.4em;
         }
 
-        .herocontainer img:nth-child(2) {
-            transform: translate(80px, -80px);
-            opacity: 0.6;
+        blockquote:after {
+            color: #000;
+            content: close-quote;
+            font-size: 2em;
+            line-height: 0.1em;
+            margin-right: 0.25em;
+            vertical-align: -0.4em;
         }
 
-        .herocontainer img:nth-child(1) {
-            transform: translate(40px, -40px);
-            opacity: 0.4;
+        blockquote p {
+            display: inline;
         }
 
-        .bd-highlight {
-            background-color: rgba(86, 61, 124, 0.15);
-            border: 5px solid rgba(86, 61, 124, 0.15);
+        blockquote a {
+            color: white;
         }
 
-        .mb3 {
-            background-color: red;
-            border: 5px brown;
+        .footerp {
+            font-size: 0.9em;
         }
     </style>
 
 </head>
 
-<body>
+<bod>
 
 
 
-    <div class="container-fluid" style="padding: 0px;">
-
-        <section id="hero">
-
-            <div class="vw-100 vh-100 d-flex flex-column bd-highlight mb-3"
-                style="height: 200px; background-color: aqua;">
-                <div class="p-2 bd-highlight align-self-center">Hero Image</div>
-                <div style="background-color: coral;"  class="mb-auto align-items-end">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                        <path fill="#273036" fill-opacity="0.6"
-                            d="M0,192L48,165.3C96,139,192,85,288,96C384,107,480,181,576,224C672,267,768,277,864,272C960,267,1056,245,1152,208C1248,171,1344,117,1392,90.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-                        </path>
-                    </svg>
-                </div>
-            </div>
-
-
-
-
-            <!-- <img src="https://s3.ca-central-1.amazonaws.com/image-web-frankie/PhoneScreen.jpg">
-        <img src="https://s3.ca-central-1.amazonaws.com/image-web-frankie/PhoneScreen.jpg">
-        <img src="https://s3.ca-central-1.amazonaws.com/image-web-frankie/PhoneScreen.jpg">
-        <img src="https://s3.ca-central-1.amazonaws.com/image-web-frankie/PhoneScreen.jpg">  -->
-
-        </section>
+    <div class="container-fluid">
 
         <section id="problemsection">
 
             <div class="row">
-                <div style="background-color: white;" class="col ">
-                    <img class="mx-auto d-block" src="img/temp.jpg" alt="mobile image" />
-                </div>
-                <div class="col" style="background-color: whitesmoke;">
-                    <h1 style="margin: 1rem;" class="text-right text-nowrap font-weight-bold">MyFitnessStory
+
+                <div class="col">
+                    <h1 style="letter-spacing: 3px;"
+                        class="text-center text-nowrap font-weight-bold mt-4 underlinedheading">MyFitnessStory
                     </h1>
 
-                    <section style="margin: 2.5rem;" class="problem">
-                        <h2 class="font-weight-normal">Problem</h2>
-                        <p>
-                            Why is it that 95% of world population have health problems and are unable to
-                            give time to there personal Fitness?
-                            Whats holding them ?
-                        </p>
+                    <section class="problem ml-3 mt-5">
+                        <h2 class="font-weight-bold ">Problem</h2>
+                        <blockquote class="mr-4">
+                            Insufficient physical activity is one of the 10 leading risk factors for global
+                            mortality-
+                            <a href="https://www.who.int/gho/ncd/risk_factors/physical_activity_text/en/">WHO</a>
+                        </blockquote>
 
-                        <h2 style="margin-top: 2rem;" class="font-weight-normal">Approach</h2>
+                        <h3 style="font-size: 2.8em;" class="pt-2 text-center">What is holding us
+                            to become fit?</h3>
+
+                        <h2 class="font-weight-bold pt-4">Approach</h2>
                         <p>
-                            This case study is an attempt to look into a problem in completety a new way, took a
+                            Took a
                             human centred
                             design approach
                             i.e. <abbr title="Hasso-Plattner Institute of Design at Stanford (d.school)">Design
-                                thinking</abbr> for understanding and attempting to solve it.
+                                Thinking</abbr> for understanding and attempting to solve it.
                         </p>
 
-                        <h2 style="margin-top: 2rem;" class="font-weight-normal">My Role</h2>
+                        <h2 class="font-weight-bold mt-4">My Role</h2>
 
                         <p>
                             My role was to drive the case study by recruiting participants,
@@ -153,9 +136,9 @@
 
         <section id="infosection">
             <div class="row">
-                <div style="background-color: whitesmoke;" class="col ">
+                <div  class="col ">
 
-                    <p class="mt-3 font-italic">
+                    <p class="text-center mt-3 font-italic footerp">
                         <i class="fa fa-info-circle fa-lg"></i>
 
                         UX Projects or Design thinking do not follow a linear methodology, but for
@@ -730,6 +713,6 @@
         crossorigin="anonymous"></script>
 
 
-</body>
+</bod>
 
 </html>
