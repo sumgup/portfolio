@@ -235,7 +235,13 @@ mark{
     
     .carousel-caption h5{
         margin-top: 10px;
-        font-size: 1em;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    .carousel-caption p{
+        margin-top: 10px;
+        font-size: 0.8em;
     }
 
  }
