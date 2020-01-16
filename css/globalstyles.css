@@ -25,7 +25,9 @@ section:hover {
     transform: scale(1.005);
 }
 
- h1 h2 h3{
+.problemsectionpara
+ {
+     font-size: 1.5em;
  }
 
 
@@ -61,7 +63,7 @@ p {
 }
 
 blockquote {
-    background: darkgray;
+    background:  #2B2D2F;;
     border-left: 10px solid #ccc;
     padding: 1em 10px;
     quotes: "\201C""\201D""\2018""\2019";
@@ -69,6 +71,8 @@ blockquote {
     font-weight: bold;
     font-style: italic;
     letter-spacing: 2px;
+    color: white;
+    margin-top: 1.2em;
 }
 
 blockquote:before {
@@ -94,15 +98,15 @@ blockquote p {
 }
 
 blockquote a {
-    color: white;
+    color: #00A2ED;
 }
 
 .display-4{
     font-weight: bolder;
 }
 
-mark{
-    font-weight: bolder;
+p b {
+    font-size: 1.1em;
 }
 
 .sticky{
@@ -128,7 +132,7 @@ mark{
 
 .prototypecarouselimage{
     width: 80vw;
-    height: 80vh;
+    height: 120vh;
 }
 
  body  {
@@ -193,6 +197,10 @@ mark{
         text-align: center;
     }
 
+    .problemsectionpara{
+        font-size:1em;
+    }
+
     blockquote
     {
         font-size: 0.8em;
@@ -209,6 +217,11 @@ mark{
         font-size: 1.15em;
         text-align: center;
     }
+
+    p b {
+        font-size: 1.1em;
+    }
+    
     
 
     section {
