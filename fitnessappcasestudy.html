@@ -13,14 +13,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/custom.css">
-    <link rel="stylesheet" href="css/controls.css">
     <link rel="stylesheet" href="css/globalstyles.css">
 
-    <link href="http://fonts.googleapis.com/css?family=Reenie+Beanie:regular" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300i,400,400i,700,700i&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/71170ebd24.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    <script type="module" src="https://cdn.pika.dev/wired-elements/latest"></script>
 
     <title>Portfolio</title>
 
@@ -47,7 +46,9 @@
         }
 
 
-}
+       
+      
+
     </style>
 
 
@@ -55,6 +56,8 @@
 </head>
 
 <body>
+
+
 
 
     <div class="container-fluid">
@@ -295,67 +298,44 @@
                         Might We"</mark> questions.</p>
             </div>
 
-            <div class="container">
-                <div class="mt-5 mb-5 ml-5 mr-5 row">
+            <div class="container-fluid text-center">
 
-                    <ul class="sticky-note">
-                        <li class="sticky-note-item">
-                            <a>
-                                <p><b>How might we</b> help a busy person
-                                    outsource there task to create more time
-                                    for exercise.
-                                </p>
-                            </a>
-                        </li>
-
-
-                        <li class="sticky-note-item">
-                            <a>
-                                <p><b>How might we</b> help a mother to swap
-                                    task within there family.
-                                </p>
-                            </a>
-                        </li>
-
-                        <li class="sticky-note-item">
-                            <a>
-                                <p><b>How might we</b> help a working mother to find
-                                    a partner to exercise with.
-                                </p>
-                            </a>
-                        </li>
-
-                        <li class="sticky-note-item">
-                            <a>
-                                <p><b>How might we</b> help a person who is exercising to keep
-                                    him/her motivated and give them a affirmative feedback.
-                                </p>
-                            </a>
-                        </li>
-
-
-
-                        <li class="sticky-note-item">
-                            <a>
-                                <p><b>How might we</b> help people exercise
-                                    during office hours?
-                                </p>
-                            </a>
-                        </li>
-
-
-                        <li class="sticky-note-item">
-                            <a>
-                                <p><b>How might we</b> help find busy person exercises
-                                    which can give them quick results in shortest amount
-                                    of time spent.
-                                </p>
-                            </a>
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
+                <wired-card class="sticky" elevation="5" fill="#fff740">
+                  <p><b>How might we</b> help a mother to swap
+                      task within there family.
+                  </p>
+                </wired-card>
+      
+                <wired-card class="sticky" elevation="5" fill="#feff9c">
+                  <p><b>How might we</b> help a busy person
+                      outsource there task to create more time
+                      for exercise.
+                  </p>
+                </wired-card>
+            
+                <wired-card class="sticky" elevation="5" fill="#7afcff">
+                  <p><b>How might we</b> help a busy person
+                      outsource there task to create more time
+                      for exercise.
+                  </p>
+                </wired-card>
+      
+                <wired-card class="sticky" elevation="5" fill="#ff65a3">
+                  <p><b>How might we</b> help a working mother to find
+                      a partner to exercise with.
+                  </p>
+                  
+                </wired-card>
+      
+                <wired-card class="sticky" elevation="5" fill="#ff7eb9">
+                  <p><b>How might we</b> help people exercise
+                      during office hours?
+                  </p>
+                  
+                </wired-card>
+      
+         
+          </div>
 
         </section>
 
@@ -462,21 +442,27 @@
                 <p class="text-center">Utilized <b>Six Thinking Hats</b>
                     technique to select
                     potential
-                    idea to prototype with
+                    ideas to prototype with
                 </p>
             </div>
 
-            <div class="container">
-                <div class="mt-5 mb-5 ml-5 mr-5 row text-center">
-                    <ul class="sticky-note">
-                        <li class="sticky-note-item">
-                            <a>
-                                <p><b>Share stories of how people became fit.</b>
-                                </p>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="container-fluid text-center">
+
+                <wired-card class="sticky" elevation="5" fill="#fff740">
+                    <p>Share <b>real life stories </b> of how people became fit
+                        in difficult circumstances.</b>
+                    </p>
+                    <p style="font-style: italic; font-size: 0.5em; color: crimson;">
+                        <b>Selected this idea for Prototyping</b>
+                    </p>
+                  </wired-card>
+        
+                  <wired-card class="sticky" elevation="5" fill="#feff9c">
+                    <p>
+                        A Virtual Assistant to help them in staying fit.
+                    </p>
+                  </wired-card>
+               
             </div>
 
         </section>
@@ -499,26 +485,24 @@
                 </div>
             </div>
 
-            <div class="container-fluid mt-2">
+            <div class="container-fluid mt-4">
                 <h2 class="text-center">Storyboard</h2>
             </div>
 
-            <div class="container-fluid mt-4">
-                <div class="row">
-                    <div class="embed-responsive embed-responsive-16by9">
+            <div  class="container-fluid mt-4">
+                    <div style="margin-top: 30px;" class="embed-responsive embed-responsive-16by9">
                         <video controls="true" class="embed-responsive-item">
                             <source src="img/Storyboard.mp4" type="video/mp4" />
                         </video>
                     </div>
-                </div>
             </div>
 
 
-            <div class="container-fluid mt-4">
-                <h3 class="text-center">Prototype</h3>
+            <div style="margin-top: 15px;" class="container-fluid mt-4">
+                <h2 class="text-center">Prototype</h2>
             </div>
 
-            <div id="carouselproto" class="carousel slide" data-ride="carousel">
+            <div style="margin-top: 30px;" id="carouselproto" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="img/1.jpg" class="d-block w-100" alt="...">
