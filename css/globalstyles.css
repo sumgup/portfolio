@@ -110,6 +110,65 @@ mark{
     max-width: 350px;
 }
 
+.carousel-caption{
+    border-radius: 4px;
+    background: #2B2D2FD9;
+    padding: 0em;
+    color: white;
+    font-weight: bolder;
+}
+
+.carousel-caption h5{
+    margin-top: 10px;
+}
+
+
+
+ body  {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+ @keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+        /* transform: translateY(1%); */
+
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
 /* Handling sizes for small devices */
 @media (max-width: 576px) { 
     h1{
@@ -165,46 +224,18 @@ mark{
         max-width:350px;
     }
 
+    .carousel-caption{
+        border-radius: 4px;
+        background: #2B2D2FD9;
+        padding: 0em;
+        color: white;
+        font-size: 0.5em;
+        font-weight: bolder;
+    }
+    
+    .carousel-caption h5{
+        margin-top: 10px;
+        font-size: 1em;
+    }
+
  }
-
- body  {
-    animation: fadein 2s;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
-    -o-animation: fadein 2s; /* Opera */
-}
-
- @keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-        /* transform: translateY(1%); */
-
-    }
-}
-@-moz-keyframes fadein { /* Firefox */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-webkit-keyframes fadein { /* Safari and Chrome */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-o-keyframes fadein { /* Opera */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity: 1;
-    }
-}
