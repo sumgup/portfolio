@@ -122,7 +122,10 @@ mark{
     margin-top: 10px;
 }
 
-
+.prototypecarouselimage{
+    width: 50%;
+    height: 20%;
+}
 
  body  {
     animation: fadein 2s;
