@@ -6,6 +6,7 @@
 
   <link rel="stylesheet" href="css/normalize.min.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/menu.css">
 
   <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
   <!-- Bootstrap CSS -->
@@ -24,55 +25,75 @@
     html {}
 
     body {
-
       /* added */
       font-family: 'Lato', sans-serif !important;
 
-      /* font: 1 rem/1.5 var(--font-family-sans-serif); */
     }
 
     wired-card {
       elevation: 5;
       text-align: center;
-      margin: 2em;;
+      margin: 2em;
+      transition: all .2s ease-in-out;
     }
 
-  
-
-    .wiredcardcontainer {
-     
+   
+    wired-card:hover {
+      transform: scale(1.05);
     }
   </style>
 </head>
 
-<body>
+<body style="background-image: url(img/prototypebkg.jpg); 
+background-repeat: round; ">
 
-  <div style=" background-image: url(img/prototypebkg.jpg); 
-  background-repeat: round;  height:100vh;" class="container-fluid bodydiv">
+  <div style="height:100vh;" class="container-fluid bodydiv">
 
-<div style=" height: 100%;" class="row align-items-center">
-  <div class="col wiredcardcontainer text-center">
-    <wired-card elevation="2" style="padding: 2em;" fill="#feff9c">
-      <p class="wiredcardp">My Work</p>
-    </wired-card>
-  </div>
-  <div class="col wiredcardcontainer text-center">
-    <wired-card style="padding: 2em;" fill="#7afcff">
-      <p class="wiredcardp">My Story</p class="wiredcardp">
-    </wired-card>
-  </div>
-  <div class="col wiredcardcontainer text-center">
-    <wired-card fill="#ff7eb9">
-      <p class="wiredcardp">My Process</p class="wiredcardp">
-    </wired-card>
-  </div>
-  <div  class="col wiredcardcontainer text-center">
-    <wired-card fill="#fff740">
-      <p class="wiredcardp">My Writings</p class="wiredcardp">
-    </wired-card>
-  </div>
-</div>
-   
+    <div style="height:20%" class="container-fluid">
+      <header>
+        <figure class="brand">
+         <a href=".">  <h1 style="color: black;" class=logo>S </h1></a>
+        </figure>
+        <nav class="menu">
+          <input type="checkbox" id="menuToggle">
+          <label for="menuToggle" class="menu-icon"><i class="fa fa-bars"></i></label>
+          <ul>
+            <a class="headera" href="#">
+              <li class="menulistitem">Work</li>
+            </a>
+            <a class="headera" href="#">
+              <li class="menulistitem">Process</li>
+            </a>
+            <a class="headera" href="#">
+              <li class="menulistitem">Writings</li>
+            </a>
+            <a class="headera" href="#">
+              <li class="menulistitem">Sumit</li>
+            </a>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <div style=" height: 80%;" class="row align-items-center">
+      <div class="col wiredcardcontainer text-center">
+        <wired-card elevation="2" style="padding: 2em;" fill="#feff9c">
+          <p class="wiredcardp">My Work</p>
+        </wired-card>
+      </div>
+      <div class="col wiredcardcontainer text-center">
+        <wired-card style="padding: 2em;" fill="#7afcff">
+          <p class="wiredcardp">My Story</p class="wiredcardp">
+        </wired-card>
+      </div>
+      <div class="col wiredcardcontainer text-center">
+        <wired-card fill="#ff7eb9">
+          <p class="wiredcardp">My Process</p class="wiredcardp">
+        </wired-card>
+      </div>
+     
+    </div>
+
 
 
   </div>
