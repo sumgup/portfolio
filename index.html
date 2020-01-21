@@ -2,101 +2,81 @@
 <html lang="en">
 
 <head>
-  <script src="https://kit.fontawesome.com/71170ebd24.js" crossorigin="anonymous"></script>
-
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/custom.css">
-  <link rel="stylesheet" href="css/controls.css">
-  <link  href="http://fonts.googleapis.com/css?family=Reenie+Beanie:regular" rel="stylesheet" type="text/css"> 
-  <link href="https://fonts.googleapis.com/css?family=Lato:300i,400,400i,700,700i&display=swap" rel="stylesheet">
-  
+  <link rel="stylesheet" href="css/globalstyles.css">
 
-  <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300i,400,400i,700,700i&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/71170ebd24.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+
+  <title>Sumit's Portfolio</title>
 
   <style>
+    html {}
+
     body {
-      font-family:'Lato', sans-serif !important;
+
+      /* added */
+      font-family: 'Lato', sans-serif !important;
 
       /* font: 1 rem/1.5 var(--font-family-sans-serif); */
     }
 
-    
+    wired-card {
+      elevation: 5;
+      text-align: center;
+      margin: 2em;;
+    }
 
-   </style>
+  
+
+    .wiredcardcontainer {
+     
+    }
+  </style>
 </head>
 
 <body>
-  <div class="container">
-    <div id="browse_app">
-      <a class="btn btn-large btn-info" href="fitnessappcasestudy.html">CaseStudy</a>
-    </div>
+
+  <div style=" background-image: url(img/prototypebkg.jpg); 
+  background-repeat: round;  height:100vh;" class="container-fluid bodydiv">
+
+<div style=" height: 100%;" class="row align-items-center">
+  <div class="col wiredcardcontainer text-center">
+    <wired-card elevation="2" style="padding: 2em;" fill="#feff9c">
+      <p class="wiredcardp">My Work</p>
+    </wired-card>
+  </div>
+  <div class="col wiredcardcontainer text-center">
+    <wired-card style="padding: 2em;" fill="#7afcff">
+      <p class="wiredcardp">My Story</p class="wiredcardp">
+    </wired-card>
+  </div>
+  <div class="col wiredcardcontainer text-center">
+    <wired-card fill="#ff7eb9">
+      <p class="wiredcardp">My Process</p class="wiredcardp">
+    </wired-card>
+  </div>
+  <div  class="col wiredcardcontainer text-center">
+    <wired-card fill="#fff740">
+      <p class="wiredcardp">My Writings</p class="wiredcardp">
+    </wired-card>
+  </div>
+</div>
+   
+
+
   </div>
 
-  <div class="container">
-    <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  Launch demo modal
-</button>
-  </div>
-
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <div class="container">
-            <p>
-              <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sunt itaque, animi harum fugiat nobis vero omnis dolore. Ab quibusdam accusamus sapiente laboriosam nesciunt dicta magnam recusandae neque saepe sunt!</h1>
-            </p>
-            <div class="parallax">
-            </div>
-        
-          </div>
-        
-          <div class="container">
-            <p>
-              <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sunt itaque, animi harum fugiat nobis vero omnis dolore. Ab quibusdam accusamus sapiente laboriosam nesciunt dicta magnam recusandae neque saepe sunt!</h1>
-            </p>
-          </div>
-        
-          <div class="container">
-            <p>
-              <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sunt itaque, animi harum fugiat nobis vero omnis dolore. Ab quibusdam accusamus sapiente laboriosam nesciunt dicta magnam recusandae neque saepe sunt!</h1>
-            </p>
-          </div>
-        
-          <div class="container">
-            <p>
-              <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sunt itaque, animi harum fugiat nobis vero omnis dolore. Ab quibusdam accusamus sapiente laboriosam nesciunt dicta magnam recusandae neque saepe sunt!</h1>
-            </p>
-          </div>
-          <div class="container">
-            <p>
-              <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sunt itaque, animi harum fugiat nobis vero omnis dolore. Ab quibusdam accusamus sapiente laboriosam nesciunt dicta magnam recusandae neque saepe sunt!</h1>
-            </p>
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
- 
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -109,6 +89,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
+  <script type="module" src="https://cdn.pika.dev/wired-elements/latest"></script>
+
 </body>
 
 </html>

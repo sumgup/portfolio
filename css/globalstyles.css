@@ -135,6 +135,16 @@ p b {
     height: 120vh;
 }
 
+
+.wiredcardp {
+    font-family: 'Gloria Hallelujah';
+    font-size: 4em;
+    font-weight: bolder;
+    line-height: 1.8em;
+    color: black;
+    text-align: center;
+  }
+
  body  {
     animation: fadein 2s;
     -moz-animation: fadein 2s; /* Firefox */
@@ -269,4 +279,22 @@ p b {
         font-size: 0.8em;
     }
 
+    .bodydiv{
+        background-image: url(img/prototypebkg2.jpg)
+    }
+
+    .wiredcardp {
+        font-size: 2.4em;
+        line-height: 2em;
+      }
+
+ }
+
+ /* Special handling of card width for iPhone5 */
+ @media (max-width: 320px) { 
+
+    .wiredcardp {
+        font-size: 1.4em;
+        line-height: 0.9em;
+      }
  }
