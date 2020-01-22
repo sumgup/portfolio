@@ -37,7 +37,7 @@
       transition: all .2s ease-in-out;
     }
 
-   
+
     wired-card:hover {
       transform: scale(1.05);
     }
@@ -49,28 +49,33 @@ background-repeat: round; ">
 
   <div style="height:100vh;" class="container-fluid bodydiv">
 
-    <div style="height:20%" class="container-fluid">
+    <div style="height:20%;" class="container-fluid">
       <header>
-        <figure class="brand">
-         <a href=".">  <h1 style="color: black;" class=logo>S </h1></a>
-        </figure>
-        <nav class="menu">
-          <input type="checkbox" id="menuToggle">
-          <label for="menuToggle" class="menu-icon"><i class="fa fa-bars"></i></label>
-          <ul>
-            <a class="headera" href="#">
-              <li class="menulistitem">Work</li>
+        <nav class="navbar sticky-top navbar-expand-lg">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <h1>S</h1>
             </a>
-            <a class="headera" href="#">
-              <li class="menulistitem">Process</li>
-            </a>
-            <a class="headera" href="#">
-              <li class="menulistitem">Writings</li>
-            </a>
-            <a class="headera" href="#">
-              <li class="menulistitem">Sumit</li>
-            </a>
-          </ul>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto w-100 justify-content-end">
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Services</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Other</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
       </header>
     </div>
@@ -91,7 +96,7 @@ background-repeat: round; ">
           <p class="wiredcardp">My Process</p class="wiredcardp">
         </wired-card>
       </div>
-     
+
     </div>
 
 
