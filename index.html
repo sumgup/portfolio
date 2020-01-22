@@ -41,68 +41,104 @@
     wired-card:hover {
       transform: scale(1.05);
     }
+
+    /* https://stackoverflow.com/questions/25773801/responsive-height-for-single-page-website */
+    html,
+    body {
+      height: 100% !important;
+      width: 100% !important;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    /* Change height to 200, 300 to add more pages */
+    .container {
+      height: 100% !important;
+      width: 100% !important;
+    }
+
+    .page {
+      height: 100% !important;
+      width: 100% !important;
+    }
+
+    h2 {
+      font-family: var(--secondaryfont);
+    }
+
+    .navbar-links li{
+      margin: 2em;
+    }
+
   </style>
 </head>
 
 <body style="background-image: url(img/prototypebkg.jpg); 
-background-repeat: round; ">
+background-repeat: round;">
 
-  <div style="height:100vh;" class="container-fluid bodydiv">
+  <div class="container">
+    <div class="page">
 
-    <div style="height:20%;" class="container-fluid">
-      <header>
-        <nav class="navbar sticky-top navbar-expand-lg">
-          <div class="container">
-            <a class="navbar-brand" href="#">
-              <h1>S</h1>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <i class="fas fa-bars"></i>
-            </button>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+          <h1>S</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto w-100 justify-content-end">
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbar-links">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <h2>My Work</h2>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <h2>My Process</h2>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <h2>Writings</h2>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <h2>Sumit</h2>
+              </a>
+            </li>
+          </ul>
 
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Services</a>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Other</a>
-                </li>
-              </ul>
-            </div>
+        </div>
+      </nav>
+
+      <div class="landinglinks" style="padding: 0em;">
+        <div class="row align-items-center">
+          <div class="col wiredcardcontainer text-center">
+            <wired-card elevation="2" style="padding: 2em;" fill="#feff9c">
+              <p class="wiredcardp">My Work</p>
+            </wired-card>
           </div>
-        </nav>
-      </header>
-    </div>
+          <div class="col wiredcardcontainer text-center">
+            <wired-card style="padding: 2em;" fill="#7afcff">
+              <p class="wiredcardp">My Story</p class="wiredcardp">
+            </wired-card>
+          </div>
+          <div class="col wiredcardcontainer text-center">
+            <wired-card fill="#ff7eb9">
+              <p class="wiredcardp">My Process</p class="wiredcardp">
+            </wired-card>
+          </div>
 
-    <div style=" height: 80%;" class="row align-items-center">
-      <div class="col wiredcardcontainer text-center">
-        <wired-card elevation="2" style="padding: 2em;" fill="#feff9c">
-          <p class="wiredcardp">My Work</p>
-        </wired-card>
-      </div>
-      <div class="col wiredcardcontainer text-center">
-        <wired-card style="padding: 2em;" fill="#7afcff">
-          <p class="wiredcardp">My Story</p class="wiredcardp">
-        </wired-card>
-      </div>
-      <div class="col wiredcardcontainer text-center">
-        <wired-card fill="#ff7eb9">
-          <p class="wiredcardp">My Process</p class="wiredcardp">
-        </wired-card>
+        </div>
+
       </div>
 
     </div>
-
-
-
   </div>
-
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

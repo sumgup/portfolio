@@ -197,8 +197,11 @@ p b {
 
 
 
-/* Handling sizes for small devices */
+/* Handling sizes for all */
 @media (max-width: 576px) { 
+  
+
+
     h1{
         font-size: 2em;
         text-align: center;
@@ -295,6 +298,11 @@ p b {
         line-height: 2em;
       }
 
+      .navbar-links li{
+        margin: 0.2em;
+      }
+  
+    
  }
 
  /* Special handling of card width for iPhone5 */
@@ -304,4 +312,6 @@ p b {
         font-size: 1.4em;
         line-height: 0.9em;
       }
+      
  }
+
