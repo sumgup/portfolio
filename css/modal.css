@@ -1,0 +1,18 @@
+.full_modal-dialog {
+    width: 100% !important;
+    height: 100% !important;
+    min-width: 100% !important;
+    min-height: 100% !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    padding: 0 !important;
+    margin: 0;
+    top: 0;
+    left: 0;
+  }
+  
+  .full_modal-content {
+    height: 100% !important;
+    min-height: 100% !important;
+    max-height: 100% !important;
+  }

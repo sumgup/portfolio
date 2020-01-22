@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="css/normalize.min.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/modal.css">
+
 
   <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
   <!-- Bootstrap CSS -->
@@ -70,6 +72,9 @@
       margin: 2em;
     }
 
+
+
+
   </style>
 </head>
 
@@ -117,7 +122,8 @@ background-repeat: round;">
 
       <div class="landinglinks" style="padding: 0em;">
         <div class="row align-items-center">
-          <div class="col wiredcardcontainer text-center">
+          <div class="col wiredcardcontainer text-center" data-toggle="modal"
+          data-target="#exampleModalLong">
             <wired-card elevation="2" style="padding: 2em;" fill="#feff9c">
               <p class="wiredcardp">My Work</p>
             </wired-card>
@@ -140,6 +146,27 @@ background-repeat: round;">
     </div>
   </div>
 
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog full_modal-dialog" role="document">
+    <div class="modal-content  full_modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Main body
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
