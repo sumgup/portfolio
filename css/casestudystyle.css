@@ -1,0 +1,31 @@
+
+.casestudysection{
+    margin-top: 1.6em;
+    margin-bottom: 1.6em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    padding: 2em;
+    background-color: gray;
+}
+
+.casestudysection h1{
+    color: white;
+}
+
+.casestudysection h2{
+    color: white;
+}
+
+.casestudysection h3{
+    color: white;
+}
+
+.casestudysection h4{
+    color: white;
+}
+
+.casestudysection p{
+    color: white;
+}
+
+

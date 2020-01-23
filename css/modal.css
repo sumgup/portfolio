@@ -11,8 +11,3 @@
     left: 0;
   }
   
-  .full_modal-content {
-    height: 100% !important;
-    min-height: 100% !important;
-    max-height: 100% !important;
-  }

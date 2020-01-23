@@ -1,0 +1,9 @@
+:root {
+    --defaultfont: 'Roboto', 'Open Sans', 'Karla', sans-serif, verdana, consolas;
+    --secondaryfont: 'Gloria Hallelujah', 'Roboto', 'Open Sans', 'sans-serif';
+    --headingfont: 'Oswald', 'Roboto', 'Open Sans', 'sans-serif';
+}
+
+:root {
+    --modalbackgroundcolor: black;
+}

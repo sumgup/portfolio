@@ -1,8 +1,3 @@
-:root {
-    --defaultfont: 'Roboto','Open Sans','Karla',sans-serif, verdana,consolas ;
-    --secondaryfont: 'Gloria Hallelujah','Roboto','Open Sans','sans-serif';
-    --headingfont : 'Oswald','Roboto','Open Sans','sans-serif';
-}
 
 
 body {
@@ -10,27 +5,6 @@ body {
     background-color: whitesmoke;
 }
 
-section {
-    background-color: white;
-    margin-top: 1.6em;
-    margin-bottom: 1.6em;
-    margin-left: 1.5em;
-    margin-right: 1.5em;
-    padding: 2em;
-    -webkit-box-shadow: 2px 2px 4px 5px #ccc;
-    /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-    -moz-box-shadow: 2px 2px 4px 5px #ccc;
-    /* Firefox 3.5 - 3.6 */
-    box-shadow: 2px 2px 4px 5px #ccc;
-    /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-    transition: all .2s ease-in-out;
-    border-radius:0.25em;
-
-}
-
-section:hover {
-    transform: scale(1.005);
-}
 
 .problemsectionpara
  {
