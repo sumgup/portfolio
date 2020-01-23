@@ -1,7 +1,18 @@
 $theme-colors: (
   "primary": #000,
-  "danger": #001100
+  "danger": #ff4136
 );
 
+// $modal-xl:                          1140px !default;
+// $modal-lg:                          800px !default;
+// $modal-md:                          500px !default;
+// $modal-sm:                          300px !default;
+
+$modal-xl: 1340px;
+$modal-lg: 900px;
+$modal-md: 600px;
+$modal-sm : 300px;
+
 @import "node_modules/bootstrap/scss/bootstrap";
+
 
