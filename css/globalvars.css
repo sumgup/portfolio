@@ -1,9 +1,11 @@
+/* Fonts */
 :root {
-    --defaultfont: 'Roboto', 'Open Sans', 'Karla', sans-serif, verdana, consolas;
-    --secondaryfont: 'Gloria Hallelujah', 'Roboto', 'Open Sans', 'sans-serif';
-    --headingfont: 'Oswald', 'Roboto', 'Open Sans', 'sans-serif';
+    --defaultfont: 'Roboto', 'Open Sans', 'Karla', sans-serif, verdana, consolas, !important;
+    --secondaryfont: 'Gloria Hallelujah', 'Roboto', 'Open Sans', 'sans-serif', !important;
+    --headingfont: 'Oswald', 'Roboto', 'Open Sans', 'sans-serif', !important;
 }
 
+/* Colors */
 :root {
     --modalbackgroundcolor: black;
 }
