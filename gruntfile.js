@@ -19,12 +19,21 @@ module.exports = function(grunt) {
         },
 
         
-        cssmin : {
-            target : {
-                src : ["css/**/*.css"],
-                dest : "dist/css"
+        cssmin: {
+            target: {
+              files: [{
+                expand: true,
+                src: ['*.css'],
+                dest: 'dist',
+              },
+              {
+                expand: true,
+                src: ['css/*.css'],
+                dest: 'dist',
+              }
+            ]
             }
-        },
+          },
 
         htmlmin: {                                     // Task
             dist: {                                      // Target
@@ -47,6 +56,7 @@ module.exports = function(grunt) {
                     {expand: true, src: ['css/*'], dest: 'dist', filter: 'isFile'},
                     {expand: true, src: ['js/*'], dest: 'dist', filter: 'isFile'},
                     {expand: true, src: ['*.html'], dest: 'dist', filter: 'isFile'},
+                    {expand: true, src: ['*.css'], dest: 'dist', filter: 'isFile'},
 
                    ],
             },
@@ -89,7 +99,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-gh-pages');
 
     // Default task(s).
-    grunt.registerTask('default', ['copy','htmlmin','uglify','watch']);
+    grunt.registerTask('default', ['copy','htmlmin','cssmin','uglify','watch']);
     grunt.registerTask ('deploy', ['gh-pages']);
 
 
