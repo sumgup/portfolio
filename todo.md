@@ -7,3 +7,4 @@
 # MUST DO
 
 Full content review
+Conclusion of case study can be shortened
