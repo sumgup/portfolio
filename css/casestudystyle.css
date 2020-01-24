@@ -28,4 +28,12 @@
     color: white;
 }
 
+@media (max-width: 576px) {
+    .casestudysection{
+        margin-left: 0em;
+        margin-right: 0em;
+        padding: 0em;
+        background-color: #0B0A0D;
+    }
+}
 
