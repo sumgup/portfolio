@@ -171,18 +171,16 @@ p b {
 
 
 
-/* Handling sizes for all */
+/* Handling sizes small*/
 @media (max-width: 576px) { 
   
-
-
     h1{
         font-size: 2em;
         text-align: center;
     }
 
     h2{
-        font-size: 1.3em;
+        font-size: 1.1em;
         text-align: center;
     }
 
@@ -276,7 +274,9 @@ p b {
         margin: 0.2em;
       }
   
-    
+      .casestudylistcoverimage{
+        
+      }
  }
 
  /* Special handling of card width for iPhone5 */

@@ -18,9 +18,7 @@ $(document).ready(function () {
 
    
    
-         var modalBackgroundColor = bodyStyles.getPropertyValue('--modalbackgroundcolor'); //get
-         $(".modal-content").css("background-color", modalBackgroundColor
-         );
+         $(".modal-content").css("background-color", "black");
     });
 
 
@@ -40,7 +38,6 @@ $(document).ready(function () {
 
         var bodyStyles = window.getComputedStyle(document.body);
 
-        var modalBackgroundColor = bodyStyles.getPropertyValue('--modalbackgroundcolor'); //get
         $(".modal-content").css("background-color", "white");
     });
 
