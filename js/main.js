@@ -1,27 +1,38 @@
 $(document).ready(function () {
 
     $("#btnOpenFitnessCaseStudy").click(function () {
-        $("#casestudylist").hide('slow');
-        $(".curioustext").hide('slow');
-        $("#fitnessCaseStudyDetail").show('slow');
+
+        let duration = 1500;
+
+        $("#casestudylist").hide(0);
+        $(".curioustext").hide(0);
+        
+        $("#fitnessCaseStudyDetail").show(duration);
 
         $(".modal-header").css("background-color", "black");
         $(".modal-title").css("color", "white");
         $(".close").css("color", "white");
 
+
         var bodyStyles = window.getComputedStyle(document.body);
 
-        var modalBackgroundColor = bodyStyles.getPropertyValue('--modalbackgroundcolor'); //get
-        $(".modal-content").css("background-color", modalBackgroundColor
-        );
+   
+   
+         var modalBackgroundColor = bodyStyles.getPropertyValue('--modalbackgroundcolor'); //get
+         $(".modal-content").css("background-color", modalBackgroundColor
+         );
     });
 
 
 
     $("#backtocasestudylist").click(function () {
-        $("#casestudylist").show('slow');
-        $(".curioustext").show('slow');
-        $("#fitnessCaseStudyDetail").hide('slow');
+        let duration = 500;
+
+
+        $("#casestudylist").show(duration);
+        $(".curioustext").show(0);
+
+        $("#fitnessCaseStudyDetail").hide(0);
 
         $(".modal-header").css("background-color", "white");
         $(".modal-title").css("color", "black");
