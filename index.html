@@ -27,7 +27,27 @@
   <title>Sumit's Portfolio</title>
 
   <style>
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: 'Oswald', sans-serif;
+    }
+
+    body {
+      font-family: 'Lato', sans-serif;
+    }
+
+    .nav-link h2{
+      font-family: 'Gloria Hallelujah', sans-serif;
+
+    }
+
     wired-card {
+      font-family: 'Gloria Hallelujah', sans-serif;
       elevation: 5;
       text-align: center;
       margin: 2em;
@@ -37,6 +57,10 @@
 
     wired-card:hover {
       transform: scale(1.05);
+    }
+
+    .modal-content {
+      min-height: 90vh;
     }
 
     /* https://stackoverflow.com/questions/25773801/responsive-height-for-single-page-website */
@@ -69,6 +93,7 @@
 
 <body style="background-image: url(img/prototypebkg.jpg); 
 background-repeat: round;">
+
 
   <div class="container">
     <div class="page">
@@ -149,35 +174,58 @@ background-repeat: round;">
           </button>
         </div>
 
-        <div class="modal-body">
+        <div class="modal-body d-flex align-items-end flex-column bd-highlight mb-3">
 
-
-          <div class="list-group">
-            <a href="#" class="list-group-item list-group-item-action">
-              <div class="">
-                <h1 class="">MyFitnessStory</h1>
+          <div id="casestudylist" style="background: whitesmoke;" class="list-group align-self-center mt-2">
+            <div class="d-flex flex-row">
+              <!-- Row1 -->
+              <div>
+                <img src="img/myfitnessstorylistitem.png" alt="myfitnessstory" />
               </div>
-              <h3>Ever wondered why lot of us don't pay attention to health?</h3>
-              <p class="">This mobile app is an attempt to make people fit</p>
-              <small>This case study is done as part of exercise to learn Design Thinking</small>
-              <button id="btnOpenFitnessCaseStudy" class="btn btn-primary" type="button">
-                Know More
-              </button>
-            </a>
 
+              <!-- Row2 -->
+              <div class="d-flex flex-column align-self-center p-4">
+
+                <div class="align-self-center">
+                  <h1 class="">MyFitnessStory</h1>
+                  <h3 class="mt-2">Ever wondered whats holding us to achieve right fitness levels?</h3>
+                </div>
+
+                <div class="align-self-center mt-2">
+                  <button id="btnOpenFitnessCaseStudy" class="btn btn-primary btn-lg" type="button">
+                    Know More
+                  </button>
+                </div>
+
+              </div>
+            </div>
           </div>
-          <!-- <div id="fitnesscasestudylistitem">
-            <h1>My Fitness Story</h1>
-            <button id="btnOpenFitnessCaseStudy" class="btn btn-primary" type="button">
-              Know More
-            </button>
-          </div> -->
+
+
+          <div class="mt-auto align-self-center curioustext">
+
+            <a style="color: gray;" href="#" onclick="alert('Simple - I am craving to do more design work')"
+              data-container="body" data-toggle="popover" data-placement="top" data-content="V">
+              <p style="font-style: italic;" class="curious">Curious, why is this space empty?</label>
+            </a>
+          </div>
+
+
 
           <!-- Details of MyFitnessStory Goes here - Begin -->
           <div id="fitnessCaseStudyDetail" style="display: none;">
 
+            <div class="d-flex align-items-end flex-column">
+              <div class="mt-auto bd-highlight">
+                <button class="mr-4" id="backtocasestudylist" href="#">
+                  <i class="fas fa-arrow-circle-left fa-5x"></i>
+                </button>
+              </div>
+            </div>
+
+
             <!-- All the content for case study goes here -->
-            <div class="container-fluid">
+            <div class="container-fluid casestudy">
 
               <section class="casestudysection" id="problemsection">
 
