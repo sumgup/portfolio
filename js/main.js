@@ -1,76 +1,45 @@
-$(document).ready(function(){
+$(document).ready(function () {
 
-	// Init ScrollMagic
-	var controller = new ScrollMagic.Controller();
+    $("#btnOpenFitnessCaseStudy").click(function () {
 
-	// pin the intro
-	var pinIntroScene = new ScrollMagic.Scene({
-		triggerElement: '#intro',
-		triggerHook: 0,
-		duration: '30%'
-	})
-	.setPin('#intro', {pushFollowers: false})
-	.addTo(controller);
+        let duration = 1500;
 
-	// pin again
-	var pinIntroScene2 = new ScrollMagic.Scene({
-		triggerElement: '#project01',
-		triggerHook: 0.4
-	})
-	.setPin('#intro', {pushFollowers: false})
-	.addTo(controller);
+        $("#casestudylist").hide(0);
+        $(".curioustext").hide(0);
+        
+        $("#fitnessCaseStudyDetail").show(duration);
 
-	// parallax scene
+        $(".modal-header").css("background-color", "black");
+        $(".modal-title").css("color", "white");
+        $(".close").css("color", "white");
 
-	var parallaxTl = new TimelineMax();
-	parallaxTl
-		.from('.content-wrapper', 0.4, {autoAlpha: 0, ease:Power0.easeNone}, 0.4)
-		.from('.bcg', 2, {y: '-50%', ease:Power0.easeNone}, 0)
-		;
 
-	var slideParallaxScene = new ScrollMagic.Scene({
-		triggerElement: '.bcg-parallax',
-		triggerHook: 1,
-		duration: '100%'
-	})
-	.setTween(parallaxTl)
-	.addTo(controller);
+        var bodyStyles = window.getComputedStyle(document.body);
 
-	// loop through each .project element
-	$('.project').each(function(){
+   
+   
+         $(".modal-content").css("background-color", "black");
+    });
 
-		// build a scene
-		var ourScene = new ScrollMagic.Scene({
-			triggerElement: this.children[0],
-			triggerHook: 0.9
-		})
-		.setClassToggle(this, 'fade-in') // add class to project01
-		.addIndicators({
-			name: 'fade scene',
-			colorTrigger: 'black',
-			colorStart: '#75C695',
-			colorEnd: 'pink'
-		}) // this requires a plugin
-		.addTo(controller);
 
-	});
+
+    $("#backtocasestudylist").click(function () {
+        let duration = 500;
+
+
+        $("#casestudylist").show(duration);
+        $(".curioustext").show(0);
+
+        $("#fitnessCaseStudyDetail").hide(0);
+
+        $(".modal-header").css("background-color", "white");
+        $(".modal-title").css("color", "black");
+        $(".close").css("color", "black");
+
+        var bodyStyles = window.getComputedStyle(document.body);
+
+        $(".modal-content").css("background-color", "white");
+    });
+
 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

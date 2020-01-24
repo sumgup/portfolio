@@ -1,58 +1,7 @@
-body {
-    font-family: 'Lato','Oswald', sans-serif !important;
-    background-color: whitesmoke;
-}
-
-section {
-    background-color: white;
-    margin-top: 1.6em;
-    margin-bottom: 1.6em;
-    margin-left: 1.5em;
-    margin-right: 1.5em;
-    padding: 2em;
-    -webkit-box-shadow: 2px 2px 4px 5px #ccc;
-    /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-    -moz-box-shadow: 2px 2px 4px 5px #ccc;
-    /* Firefox 3.5 - 3.6 */
-    box-shadow: 2px 2px 4px 5px #ccc;
-    /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-    transition: all .2s ease-in-out;
-    border-radius:0.25em;
-
-}
-
-section:hover {
-    transform: scale(1.005);
-}
-
-.problemsectionpara
- {
-     font-size: 1.5em;
- }
 
 
-h1 {
-    font-family: 'Oswald';
-    text-align: center !important;
-    font-weight: bolder;
-    font-size: 3em;
-}
-
-h2{
-    font-family: 'Oswald';
-    font-weight: bold;
-    font-size: 1.9em;
-}
-
-h3{
-    font-family: 'Oswald';
-    font-weight: bold;
+.problemsectionpara {
     font-size: 1.5em;
-}
-
-h4{
-    font-family: 'Oswald';
-    font-weight: bold;
 }
 
 
@@ -63,7 +12,8 @@ p {
 }
 
 blockquote {
-    background:  #2B2D2F;;
+    background: #2B2D2F;
+    ;
     border-left: 10px solid #ccc;
     padding: 1em 10px;
     quotes: "\201C""\201D""\2018""\2019";
@@ -101,7 +51,7 @@ blockquote a {
     color: #00A2ED;
 }
 
-.display-4{
+.display-4 {
     font-weight: bolder;
 }
 
@@ -109,16 +59,16 @@ p b {
     font-size: 1.1em;
 }
 
-.sticky{
-    font-family: 'Gloria Hallelujah';
+.sticky {
+    font-family: 'Gloria Hallelujah', sans-serif;
     font-size: 1.5em;
-    margin:1.5em;
+    margin: 1.5em;
     min-height: 130px;
     padding: 2.5em;
     max-width: 350px;
 }
 
-.carousel-caption{
+.carousel-caption {
     border-radius: 4px;
     background: #2B2D2FD9;
     padding: 0em;
@@ -126,130 +76,126 @@ p b {
     font-weight: bolder;
 }
 
-.carousel-caption h5{
+.carousel-caption h5 {
     margin-top: 10px;
 }
 
-.prototypecarouselimage{
+.prototypecarouselimage {
     width: 80vw;
     height: 120vh;
 }
 
- body  {
+.wiredcardp {
+    font-family: 'Gloria Hallelujah', sans-serif;
+    font-size: 3.81em;
+    font-weight: bolder;
+    line-height: 1.8em;
+    color: black;
+    text-align: center;
+}
+
+body {
     animation: fadein 2s;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
-    -o-animation: fadein 2s; /* Opera */
+    -moz-animation: fadein 2s;
+    /* Firefox */
+    -webkit-animation: fadein 2s;
+    /* Safari and Chrome */
+    -o-animation: fadein 2s;
+    /* Opera */
 }
 
- @keyframes fadein {
+@keyframes fadein {
     from {
-        opacity:0;
+        opacity: 0;
     }
     to {
-        opacity:1;
+        opacity: 1;
         /* transform: translateY(1%); */
+    }
+}
 
-    }
-}
-@-moz-keyframes fadein { /* Firefox */
+@-moz-keyframes fadein {
+    /* Firefox */
     from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-webkit-keyframes fadein { /* Safari and Chrome */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-o-keyframes fadein { /* Opera */
-    from {
-        opacity:0;
+        opacity: 0;
     }
     to {
         opacity: 1;
     }
 }
 
+@-webkit-keyframes fadein {
+    /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
+@-o-keyframes fadein {
+    /* Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
+/* Handling sizes small*/
 
-/* Handling sizes for small devices */
-@media (max-width: 576px) { 
-    h1{
+@media (max-width: 576px) {
+    h1 {
         font-size: 2em;
         text-align: center;
     }
-
-    h2{
-        font-size: 1.3em;
+    h2 {
+        font-size: 1.1em;
         text-align: center;
     }
-
-    h3{
+    h3 {
         font-size: 1em;
         text-align: center;
     }
-
-    .problemsectionpara{
-        font-size:1em;
+    .problemsectionpara {
+        font-size: 1em;
     }
-
-    blockquote
-    {
+    blockquote {
         font-size: 0.8em;
     }
-
-    .display-4{
+    .display-4 {
         font-weight: bold;
         font-size: 2em;
     }
-
     p {
         letter-spacing: 0.05em;
         line-height: 1.75em;
         font-size: 1.15em;
         text-align: center;
     }
-
     p b {
         font-size: 1.1em;
     }
-    
-    
-
     section {
         margin-top: 1.5em;
         margin-bottom: 1.5em;
         margin-left: 0.2em;
         margin-right: 0.2em;
         padding: 0.8em;
-        -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-        /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-        -moz-box-shadow: 3px 3px 5px 6px #ccc;
-        /* Firefox 3.5 - 3.6 */
-        box-shadow: 3px 3px 5px 6px #ccc;
-        /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-        transition: all .2s ease-in-out;
+      
     }
-
     /* Careful Handles sizing of wired element sticky note */
-    .sticky{
-        font-family: 'Gloria Hallelujah';
+    .sticky {
+        font-family: var(--secondaryfont);
         font-size: 1em;
-        margin:2em;
+        margin: 2em;
         min-height: 130px;
         padding: 2em;
-        max-width:350px;
+        max-width: 350px;
     }
-
-    .carousel-caption{
+    .carousel-caption {
         border-radius: 4px;
         background: #2B2D2FD9;
         padding: 0em;
@@ -257,16 +203,33 @@ p b {
         font-size: 0.5em;
         font-weight: bolder;
     }
-    
-    .carousel-caption h5{
+    .carousel-caption h5 {
         margin-top: 10px;
         font-size: 1.2em;
         font-weight: bold;
     }
-
-    .carousel-caption p{
+    .carousel-caption p {
         margin-top: 10px;
         font-size: 0.8em;
     }
+    .bodydiv {
+        background-image: url(img/prototypebkg2.jpg)
+    }
+     .wiredcardp {
+        font-size: 2.4em;
+        line-height: 2em;
+        color: black;
+    } 
+    .navbar-links li {
+        margin: 0.2em;
+    }
+}
 
- }
+/* Special handling of card width for iPhone5 */
+
+@media (max-width: 320px) {
+    .wiredcardp {
+        font-size: 1.4em;
+        line-height: 0.9em;
+    }
+}
