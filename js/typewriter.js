@@ -1,38 +1,17 @@
-// set up text to print, each item in array is new line
-var aText = new Array(
-    "What do Designers and Developers have in common?",
-    "They both want to ship a great product",
-    "Believe in it?"
-);
+var content = 'There are two kind of people, people who create business with there gut feeling and others who validate there assumptions and build the business, which one are you? ';
 
-var iSpeed = 100; // time delay of print out
-var iIndex = 0; // start printing array at this posision
-var iArrLength = aText[0].length; // the length of the text array
-var iScrollAt = 20; // start scrolling up at this many lines
+var ele = '<span>' + content.split('').join('</span><span>') + '</span>';
 
-var iTextPos = 0; // initialise text position
-var sContents = ''; // initialise contents variable
-var iRow; // initialise current row
 
-function typewriter() {
-    sContents = ' ';
-    iRow = Math.max(0, iIndex - iScrollAt);
-    var destination = document.getElementById("typedtext");
-
-    while (iRow < iIndex) {
-        sContents += aText[iRow++] + '<br />';
+$(ele).hide().appendTo('#typedtext').each(function (i) {
+    $(this).delay(100 * i).css({
+        display: 'inline',
+        opacity: 0
     }
-    destination.innerHTML = sContents + aText[iIndex].substring(0, iTextPos) + "_";
-    if (iTextPos++ == iArrLength) {
-        iTextPos = 0;
-        iIndex++;
-        if (iIndex != aText.length) {
-            iArrLength = aText[iIndex].length;
-            setTimeout("typewriter()", 500);
-        }
-    } else {
-        setTimeout("typewriter()", iSpeed);
-    }
-}
+    ).animate({
+        opacity: 1
+    }, 100);      
+
+}).promise().done(function(){ $(".landinglinks").show(1000)});
 
 
