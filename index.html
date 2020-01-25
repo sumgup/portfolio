@@ -16,17 +16,34 @@
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
   <link href="https://fonts.googleapis.com/css?family=Lato:300i,400,400i,700,700i&display=swap" rel="stylesheet">
-
   <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
-
-
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
 
   <script src="https://kit.fontawesome.com/71170ebd24.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
 
   <title>Sumit's Portfolio</title>
 
   <style>
+    #typedtext{
+      font-family: 'Oswald', 'sans-serif';
+      font-size:3.5em;
+      letter-spacing: 4px;
+      font-weight: bold;
+      line-height: 1.8em;
+    }
+
+    @media (max-width: 576px) {
+      #typedtext{
+      font-family: 'Oswald', 'sans-serif';
+      font-size:1.2em;
+      letter-spacing: 3px;
+      font-weight: bold;
+      line-height: 1.8em;
+
+    }
+
+    }
+
     h1,
     h2,
     h3,
@@ -114,7 +131,7 @@ background-repeat: round;">
               </a>
             </li>
 
-          
+
             <li class="nav-item">
               <a class="nav-link" href="#" data-toggle="modal" data-target="#mystory">
                 <h2>Sumit</h2>
@@ -125,7 +142,9 @@ background-repeat: round;">
         </div>
       </nav>
 
-      <div class="landinglinks" style="padding: 0em;">
+      <div style="background :silver;" class="container-fluid" id="typedtext"></div>
+
+      <div class="landinglinks" style="padding: 0em; display: none;">
         <div class="row align-items-center">
           <div class="col wiredcardcontainer text-center" data-toggle="modal" data-target="#casestudies">
             <wired-card elevation="2" style="padding: 2em;" fill="#feff9c">
@@ -145,6 +164,9 @@ background-repeat: round;">
 
 
         </div>
+
+
+
 
       </div>
 
@@ -921,7 +943,7 @@ background-repeat: round;">
 
           </div>
 
-       
+
 
         </div>
 
@@ -933,7 +955,17 @@ background-repeat: round;">
 
 
   <!-- Optional JavaScript -->
+
   <script src="js/main.js"></script>
+  <script src="js/typewriter.js"></script>
+
+
+  <script language="JavaScript">
+    typewriter();
+    $(".landinglinks").show(1000);
+
+  </script>
+
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
