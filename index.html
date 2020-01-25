@@ -45,13 +45,7 @@
 
     }
 
-    wired-card {
-      font-family: 'Gloria Hallelujah', sans-serif;
-      text-align: center;
-      margin: 2em;
-      transition: all .2s ease-in-out;
-
-    }
+   
 
     wired-card:hover {
       transform: scale(1.05);
@@ -107,21 +101,25 @@ background-repeat: round;">
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbar-links">
+
             <li class="nav-item">
               <a class="nav-link" href="#" data-toggle="modal" data-target="#casestudies">
                 <h2>My Work</h2>
               </a>
             </li>
+
             <li class="nav-item">
-              <a id="btnmyprocess" class="nav-link" href="#">
-                <h2>My Process</h2>
+              <a class="nav-link" href="#" data-toggle="modal" data-target="#skills">
+                <h2>Skills</h2>
               </a>
             </li>
+
             <li class="nav-item">
               <a class="nav-link" href="#">
                 <h2>Writings</h2>
               </a>
             </li>
+
             <li class="nav-item">
               <a class="nav-link" href="#">
                 <h2>Sumit</h2>
@@ -139,16 +137,17 @@ background-repeat: round;">
               <p  class="wiredcardp">My Work</p>
             </wired-card>
           </div>
+          <div class="col wiredcardcontainer text-center" data-toggle="modal" data-target="#skills">
+            <wired-card fill="#ff7eb9">
+              <p class="wiredcardp">Skills</p>
+            </wired-card>
+          </div>
           <div class="col wiredcardcontainer text-center">
             <wired-card style="padding: 2em;" fill="#7afcff">
               <p class="wiredcardp">My Story</p>
             </wired-card>
           </div>
-          <div class="col wiredcardcontainer text-center">
-            <wired-card fill="#ff7eb9">
-              <p class="wiredcardp">My Process</p>
-            </wired-card>
-          </div>
+        
 
         </div>
 
@@ -158,9 +157,7 @@ background-repeat: round;">
   </div>
 
 
-  <!-- Modal -->
-
-
+  <!-- Modal - My Work -->
   <div class="modal fade" id="casestudies" tabindex="-1" role="dialog" aria-labelledby="casestudies" aria-hidden="true">
     <div class="modal-dialog modal-xl" role="document">
       <div class="modal-content  full_modal-content">
@@ -792,6 +789,32 @@ background-repeat: round;">
       </div>
     </div>
   </div>
+  <!-- Modal - My Work End -->
+
+  <!-- Modal - My SKills -->
+  <div class="modal fade" id="skills" tabindex="-1" role="dialog" aria-labelledby="skills" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content  full_modal-content">
+        <div class="modal-header text-center">
+          <h2 class="modal-title w-100" id="exampleModalLongTitle">Skills</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div class="modal-body d-flex align-items-end flex-column bd-highlight mb-3">
+
+         
+          SKILLS
+
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+   <!-- Modal - My SKills End -->
+
 
   <!-- Optional JavaScript -->
   <script src="js/main.js"></script>
