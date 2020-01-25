@@ -5,29 +5,11 @@
     margin-left: 1.5em;
     margin-right: 1.5em;
     padding: 2em;
-    background-color: #373639;
+    background-color: whitesmoke;
     border-radius:10px
 }
 
-.casestudysection h1{
-    color: white;
-}
 
-.casestudysection h2{
-    color: white;
-}
-
-.casestudysection h3{
-    color: white;
-}
-
-.casestudysection h4{
-    color: white;
-}
-
-.casestudysection p{
-    color: white;
-}
 
 @media (max-width: 576px) {
     .casestudysection{

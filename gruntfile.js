@@ -63,9 +63,11 @@ module.exports = function(grunt) {
         },
 
         watch: {
-           
+            options: {
+                livereload: true,
+              },
             html: {
-                files: ['index.html','fitnessappcasestudy.html'],
+                files: ['index.html'],
                 tasks: ['htmlmin']
             }
         },
