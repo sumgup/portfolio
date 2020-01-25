@@ -114,14 +114,9 @@ background-repeat: round;">
               </a>
             </li>
 
+          
             <li class="nav-item">
-              <a class="nav-link" href="#">
-                <h2>Writings</h2>
-              </a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="#" data-toggle="modal" data-target="#mystory">
                 <h2>Sumit</h2>
               </a>
             </li>
@@ -142,7 +137,7 @@ background-repeat: round;">
               <p class="wiredcardp">Skills</p>
             </wired-card>
           </div>
-          <div class="col wiredcardcontainer text-center">
+          <div class="col wiredcardcontainer text-center" data-toggle="modal" data-target="#mystory">
             <wired-card style="padding: 2em;" fill="#7afcff">
               <p class="wiredcardp">My Story</p>
             </wired-card>
@@ -877,6 +872,64 @@ background-repeat: round;">
     </div>
   </div>
   <!-- Modal - My SKills End -->
+
+  <!-- Modal - My Story -->
+
+  <div class="modal fade" id="mystory" tabindex="-1" role="dialog" aria-labelledby="mystory" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content  full_modal-content">
+        <div class="modal-header text-center">
+          <h2 class="modal-title w-100" id="exampleModalLongTitle">My Story</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div class="modal-body">
+
+          <div class="row mt-2">
+
+            <div style="background-color: transparent;" class="col-md-6 border-right text-center">
+              <h1>Design Thinking</h1>
+              <p>
+                I have applied design thinking process to solve problems.
+              </p>
+              <div class="row justify-content-around mt-2 text-nowrap">
+                <div class="col-md-3">
+                  <ul>
+                    <li>
+                      Customer Interviews
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <ul>
+                    <li>
+                      Point Of View
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+
+
+
+            <div style="background-color: transparent;" class="col-md-6  text-center">
+              <h1>Tools</h1>
+            </div>
+
+          </div>
+
+       
+
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  <!-- Modal - My Story End-->
 
 
   <!-- Optional JavaScript -->
