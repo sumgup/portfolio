@@ -9,3 +9,4 @@
 Full content review
 Conclusion of case study can be shortened
 Navigate to top button
+Home page click navigate home
