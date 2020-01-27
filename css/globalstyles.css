@@ -5,15 +5,20 @@
 }
 
 .btn{
-    
     font-size: 5em;
 }
+
+
 
 
 p {
     letter-spacing: 0.05em;
     line-height: 2em;
     font-size: 1.3em;
+}
+
+#contact{
+    font-size: 1.15em;
 }
 
 blockquote {
@@ -247,6 +252,10 @@ wired-card {
     min-width: 200px;
     min-height: 100px;
   }
+
+  #contact{
+    font-size: 0.94em;
+}
 }
 
 /* Special handling of card width for iPhone5 */
