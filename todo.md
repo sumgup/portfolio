@@ -6,9 +6,30 @@
 
 # MUST DO
 
+Reduce animation transition duration
 Full content review
 Conclusion of case study can be shortened
 Navigate to top button
 Home page click navigate home
 Font size as variable
 Font Family as Variable
+Improve MyFitnessStory ListItem
+
+# Should do
+Increase card size on home page
+Back to top button
+Improve back arrow button in case study of fitness details
+Progress bar for Skills
+Remove mobile image from background
+Async loading of scripts
+
+
+# Could
+Curious whats missing on this page? - Convert to tooltip kinda
+Try Changing font from Lato to something else
+Improve check marks for my skills
+
+
+# Would
+
+Convert to React
