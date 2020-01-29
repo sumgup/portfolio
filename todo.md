@@ -14,6 +14,8 @@ Home page click navigate home
 Font size as variable
 Font Family as Variable
 Improve MyFitnessStory ListItem
+Fix website menu for mobile
+Fix Background image on mobile
 
 # Should do
 Increase card size on home page
@@ -25,6 +27,7 @@ Async loading of scripts
 
 
 # Could
+SEO
 Curious whats missing on this page? - Convert to tooltip kinda
 Try Changing font from Lato to something else
 Improve check marks for my skills
