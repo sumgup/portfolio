@@ -1,3 +1,4 @@
+
 .circledtext {
     display: block;
     width: 100px;
@@ -278,6 +279,15 @@ wired-card {
 
    
 }
+/* End  576px */
+
+/* Upto large size navbar will have a background color - i.e. 
+smaller devices will have background menu */
+@media (max-width: 992px) {
+    .navbar-collapse{
+        background-color:#CAC2BD;
+    }
+}
 
 /* Special handling of card width for iPhone5 */
 
@@ -286,4 +296,6 @@ wired-card {
         font-size: 1.4em;
         line-height: 0.9em;
     }
+
+   
 }
