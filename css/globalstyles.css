@@ -96,11 +96,12 @@ p b {
 .sticky {
     font-family: 'Gloria Hallelujah', sans-serif;
     font-size: 1.5em;
-    margin: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 1em;
     min-height: 130px;
-    padding: 2.5em;
+    padding: 1em;
     max-width: 350px;
-}
+} 
 
 .carousel-caption {
     border-radius: 4px;
@@ -119,14 +120,14 @@ p b {
     height: 120vh;
 }
 
-.wiredcardp {
+/* .wiredcardp {
     font-family: 'Gloria Hallelujah', sans-serif;
     font-size: 3.81em;
     font-weight: bolder;
     line-height: 1.8em;
     color: black;
     text-align: center;
-}
+} */
 
 body {
     animation: fadein 2s;
@@ -138,14 +139,14 @@ body {
     /* Opera */
 }
 
-wired-card {
+/* wired-card {
     font-family: 'Gloria Hallelujah', sans-serif;
     text-align: center;
     margin: 2em;
     transition: all .2s ease-in-out;
     min-width: 300px;
     min-height: 200px;
-}
+} */
 
 /* Handling sizes small*/
 
@@ -188,15 +189,17 @@ wired-card {
         margin-right: 0.2em;
         padding: 0.8em;
     }
-    /* Careful Handles sizing of wired element sticky note */
+
     .sticky {
         font-family: var(--secondaryfont);
         font-size: 1em;
-        margin: 2em;
         min-height: 130px;
-        padding: 2em;
+        padding: 1.5em;
         max-width: 350px;
-    }
+        margin-top: 1.8em;
+        margin-bottom: 0.5em;
+    } 
+
     .carousel-caption {
         border-radius: 4px;
         background: #2B2D2FD9;
@@ -225,14 +228,14 @@ wired-card {
     .navbar-links li {
         margin: 0.2em;
     }
-    wired-card {
+    /* wired-card {
         font-family: 'Gloria Hallelujah', sans-serif;
         text-align: center;
         margin: 2em;
         transition: all .2s ease-in-out;
         min-width: 200px;
         min-height: 100px;
-    }
+    } */
     #contact {
         font-size: 0.94em;
     }
@@ -250,7 +253,7 @@ smaller devices will have background menu */
 }
 
 /* Special handling of card width for iPhone5 */
-
+/* 
 @media (max-width: 320px) {
     .wiredcardp {
         font-size: 1.4em;
@@ -258,4 +261,4 @@ smaller devices will have background menu */
     }
 
    
-}
+} */
