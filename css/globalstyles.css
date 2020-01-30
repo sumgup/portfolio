@@ -1,4 +1,23 @@
+#typedtext {
+    font-family: 'Oswald', 'sans-serif';
+    font-size: 3.5em;
+    letter-spacing: 4px;
+    font-weight: bold;
+    line-height: 1.8em;
+  }
 
+  @media (max-width: 576px) {
+    #typedtext {
+      font-family: 'Oswald', 'sans-serif';
+      font-size: 1.2em;
+      letter-spacing: 3px;
+      font-weight: bold;
+      line-height: 1.8em;
+
+    }
+
+  }
+  
 .circledtext {
     display: block;
     width: 100px;
@@ -120,14 +139,14 @@ p b {
     height: 120vh;
 }
 
-/* .wiredcardp {
+.wiredcardp {
     font-family: 'Gloria Hallelujah', sans-serif;
-    font-size: 3.81em;
+    font-size: 3.21em;
     font-weight: bolder;
     line-height: 1.8em;
     color: black;
     text-align: center;
-} */
+} 
 
 body {
     animation: fadein 2s;
@@ -139,14 +158,14 @@ body {
     /* Opera */
 }
 
-/* wired-card {
+ .stickynav {
     font-family: 'Gloria Hallelujah', sans-serif;
     text-align: center;
     margin: 2em;
     transition: all .2s ease-in-out;
     min-width: 300px;
     min-height: 200px;
-} */
+} 
 
 /* Handling sizes small*/
 
@@ -221,21 +240,21 @@ body {
         background-image: none;
     }
     .wiredcardp {
-        font-size: 2.4em;
-        line-height: 2em;
+        font-size: 1.5em;
+        line-height: 1em;
         color: black;
     }
     .navbar-links li {
         margin: 0.2em;
     }
-    /* wired-card {
+     .stickynav {
         font-family: 'Gloria Hallelujah', sans-serif;
         text-align: center;
         margin: 2em;
         transition: all .2s ease-in-out;
         min-width: 200px;
         min-height: 100px;
-    } */
+    } 
     #contact {
         font-size: 0.94em;
     }
@@ -253,12 +272,12 @@ smaller devices will have background menu */
 }
 
 /* Special handling of card width for iPhone5 */
-/* 
+
 @media (max-width: 320px) {
-    .wiredcardp {
-        font-size: 1.4em;
+    .stickynav {
+        font-size: 0.6em;
         line-height: 0.9em;
     }
 
    
-} */
+} 
