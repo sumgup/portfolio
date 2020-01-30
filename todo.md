@@ -1,38 +1,45 @@
-# DONOTFORGET BEFORE DEPLOYMENT
 
-1. Elements js to be part of webpack.
-2. Favicon with logo
-3. Minify everything
 
 # MUST DO
 
-Reduce animation transition duration
-Full content review
-Conclusion of case study can be shortened
-Navigate to top button
+Favicon with logo
 Home page click navigate home
-Font size as variable
-Font Family as Variable
 Improve MyFitnessStory ListItem
 Fix website menu for mobile
 Fix Background image on mobile
 
+Full content review
+Conclusion of case study can be shortened
+
+Reduce animation transition duration
+
+Minify everything
+
+
+
+
 # Should do
+Navigate to top button
 Increase card size on home page
-Back to top button
 Improve back arrow button in case study of fitness details
-Progress bar for Skills
-Remove mobile image from background
-Async loading of scripts
 
 
 # Could
-SEO
-Curious whats missing on this page? - Convert to tooltip kinda
-Try Changing font from Lato to something else
+
 Improve check marks for my skills
+Space between Checkbox in skills can be increased
+
+Font size as variable
+Font Family as Variable
+Try Changing font from Lato to something else
+
+Section scrolling menu in case study page
+
+Progress bar for Skills
+Curious whats missing on this page? - Convert to tooltip kinda
+SEO Changes
+
 
 
 # Would
 
-Convert to React
