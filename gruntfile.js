@@ -8,15 +8,7 @@ module.exports = function(grunt) {
     // Project configuration.
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
-        uglify: {
-            options: {
-                banner : "/*! index.min.js file */\n"
-            },
-            build: {
-                src : ["js/index.js"],
-                dest : "dist/js/index.js"
-            }
-        },
+        
 
         
         cssmin: {
@@ -94,14 +86,14 @@ module.exports = function(grunt) {
 
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-contrib-uglify-es');
+    // grunt.loadNpmTasks('grunt-contrib-uglify-es');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-gh-pages');
 
     // Default task(s).
-    grunt.registerTask('default', ['copy','htmlmin','cssmin','uglify','watch']);
+    grunt.registerTask('default', ['copy','htmlmin','cssmin','watch']);
     grunt.registerTask ('deploy', ['gh-pages']);
 
 
