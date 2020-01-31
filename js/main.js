@@ -18,5 +18,15 @@ $(document).ready(function () {
        $("#fitnessCaseStudyDetail").hide(0);
     });
 
+  // Hide the menu
+    $('.navbar-nav>li>a').on('click', function(){
+        $('.navbar-collapse').collapse('hide');
+    });
 
 });
+
+
+
+function topFunction() {
+    $('#casestudies').animate({ scrollTop: 0 }, 'slow');
+}
