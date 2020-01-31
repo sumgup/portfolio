@@ -1,5 +1,24 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--HeadingFont);
+}
+
+body {
+  font-family: var(--ContentFont);
+}
+
+.nav-link h2 {
+  font-family: var(--DecorationFont);
+
+}
+
+
 #typedtext {
-    font-family: 'Oswald', 'sans-serif';
+    font-family: var(--HeadingFont);
     font-size: 3.5em;
     letter-spacing: 4px;
     font-weight: bold;
@@ -8,7 +27,7 @@
 
   @media (max-width: 576px) {
     #typedtext {
-      font-family: 'Oswald', 'sans-serif';
+      font-family: var(--HeadingFont);
       font-size: 1.2em;
       letter-spacing: 3px;
       font-weight: bold;
@@ -113,7 +132,7 @@ p b {
 }
 
 .sticky {
-    font-family: 'Gloria Hallelujah', sans-serif;
+    font-family: var(--DecorationFont);
     font-size: 1.5em;
     margin-top: 2em;
     margin-bottom: 1em;
@@ -140,7 +159,7 @@ p b {
 }
 
 .wiredcardp {
-    font-family: 'Gloria Hallelujah', sans-serif;
+    font-family: var(--DecorationFont);
     font-size: 3.21em;
     font-weight: bolder;
     line-height: 1.8em;
@@ -159,7 +178,7 @@ body {
 }
 
  .stickynav {
-    font-family: 'Gloria Hallelujah', sans-serif;
+    font-family: var(--DecorationFont);
     text-align: center;
     margin: 2em;
     transition: all .2s ease-in-out;
@@ -210,7 +229,7 @@ body {
     }
 
     .sticky {
-        font-family: var(--secondaryfont);
+        font-family: var(--ContentFont);
         font-size: 1em;
         min-height: 130px;
         padding: 1.5em;
@@ -248,7 +267,7 @@ body {
         margin: 0.2em;
     }
      .stickynav {
-        font-family: 'Gloria Hallelujah', sans-serif;
+        font-family: var(--DecorationFont);
         text-align: center;
         margin: 2em;
         transition: all .2s ease-in-out;
