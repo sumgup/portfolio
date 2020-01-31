@@ -20,3 +20,9 @@ $(document).ready(function () {
 
 
 });
+
+
+
+function topFunction() {
+    $('#casestudies').animate({ scrollTop: 0 }, 'slow');
+}
