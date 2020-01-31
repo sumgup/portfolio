@@ -7,9 +7,11 @@ h6 {
   font-family: var(--HeadingFont);
 }
 
-body {
-  font-family: var(--ContentFont);
+p{
+    font-family: var(--ContentFont);
 }
+
+
 
 .nav-link h2 {
   font-family: var(--DecorationFont);
@@ -136,6 +138,7 @@ p b {
     font-size: 1.5em;
     margin-top: 2em;
     margin-bottom: 1em;
+    margin-right: 2em;
     min-height: 130px;
     padding: 1em;
     max-width: 350px;
@@ -167,6 +170,15 @@ p b {
     text-align: center;
 } 
 
+.casestudystickyp{
+    font-family: var(--DecorationFont);
+    font-size: 1.5em;
+    line-height: 1.5em;
+    color: black;
+    text-align: center;
+    margin-right: 2em;
+    }
+
 body {
     animation: fadein 2s;
     -moz-animation: fadein 2s;
@@ -185,6 +197,8 @@ body {
     min-width: 300px;
     min-height: 200px;
 } 
+
+
 
 /* Handling sizes small*/
 
@@ -229,7 +243,7 @@ body {
     }
 
     .sticky {
-        font-family: var(--ContentFont);
+        font-family: var(--DecorationFont);
         font-size: 1em;
         min-height: 130px;
         padding: 1.5em;
@@ -278,6 +292,14 @@ body {
         font-size: 0.94em;
     }
 
+    .casestudystickyp{
+        font-family: var(--DecorationFont);
+        text-align: center;
+        margin: 2em;
+        transition: all .2s ease-in-out;
+        min-width: 200px;
+        min-height: 100px;
+    }
    
 }
 /* End  576px */
