@@ -85,6 +85,21 @@ p {
     font-size: 1.15em;
 }
 
+dl{
+    font-family: var(--ContentFont);
+}
+
+dt{
+    font-family: var(--ContentFont);
+    font-size:1.3em;
+    line-height: 2em;
+}
+
+dd{
+    font-family: var(--ContentFont);
+    font-size:1.1em;
+}
+
 blockquote {
     background: #2B2D2F;
     ;

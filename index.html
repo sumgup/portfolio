@@ -153,21 +153,21 @@
 
         <div class="modal-body d-flex align-items-end flex-column bd-highlight mb-3">
 
-          <div id="casestudylist" style="background: whitesmoke;" class="list-group align-self-center mt-2">
-            <div class="row">
-
-              <!-- Row1 -->
-              <div class="col-md-4">
+          <div id="casestudylist"  class="list-group align-self-center mt-2">
+            <!-- MyFitnessStoryRow -->
+            <div style="background-color: whitesmoke;" class="row mb-4 ">
+              <!-- Column1 -->
+              <div style="background-color: white;" class="col-md-4 text-center">
                 <img style="height:400px;" class="img-fluid" src="img/threed_mockup.png" alt="myfitnessstory" />
               </div>
 
-              <!-- Row2 -->
+              <!-- Column2 -->
               <div class="col-md-8 d-flex flex-column mt-4 ">
 
                 <div>
-                  <h1>MyFitnessStory</h1>
-                  <h3 class="mt-4">Ever wondered what's holding us to achieve the right fitness levels?</h3>
-                  <p>A case study to understand what's holding people to become fit.</p>
+                  <h1 class="text-center">MyFitnessStory</h1>
+                  <h3 class="mt-4 text-center">Ever wondered what's holding us to achieve the right fitness levels?</h3>
+                  <p class="text-center">A case study to understand what's holding people to become fit.</p>
                 </div>
 
                 <div class="align-self-center mt-2 mb-4">
@@ -178,17 +178,37 @@
 
               </div>
             </div>
+
+            <!-- SketchNoteRow -->
+            <div style="background-color: whitesmoke;" class="row mt-4">
+              <!-- Column1 -->
+              <div style="background-color: white;" class="col-md-4 text-center">
+                <img style="height:400px;" class="img-fluid" src="img/sketchnotelistitem.png" alt="sketchnote" />
+              </div>
+
+              <!-- Column2 -->
+              <div class="col-md-8 d-flex flex-column mt-4 ">
+
+                <div>
+                  <h1 class="text-center">SketchNote</h1>
+                  <h3 class="mt-4 text-center">Why is entrepreneurship or building a startup so hard?</h3>
+                  <p class="text-center">How a one week design sprint helped in creating a solution for the problem.</p>
+
+                </div>
+
+
+
+                <div class="align-self-center mt-2 mb-4">
+                  <!-- For some reason I have to name it as btn2, if I  name it as btnsketchnote it doesn't work.  Strange but true -->
+                  <button id="btn2" class="btn btn-primary btn-lg mt-4" type="button">
+                    Know More
+                  </button>
+                </div>
+
+              </div>
+            </div>
+
           </div>
-
-
-          <div style="margin-top: 10px;" class="mt-auto align-self-center curioustext">
-            <a style="color: gray;" href="#"
-              onclick="alert('I am craving to do more design work and case studies. Which will cover the space here in future')"
-              data-container="body" data-toggle="popover" data-placement="top" data-content="V">
-              <p style="font-style: italic;" class="curious">Curious, what missing on this page?</label>
-            </a>
-          </div>
-
 
 
           <!-- Details of MyFitnessStory Goes here - Begin -->
@@ -703,9 +723,9 @@
                 </div>
 
                 <div class="container-fluid text-center">
-                    <p class="text-center mt-3">
-                      Defining major user flows.
-                    </p>
+                  <p class="text-center mt-3">
+                    Defining major user flows.
+                  </p>
                 </div>
 
 
@@ -836,6 +856,134 @@
 
           </div>
           <!-- Details of MyFitnessStory Goes here - End-->
+
+          <!--Details of SketchNote case study goes here - Begin-->
+          <div id="sketchNoteCaseStudyDetail" style="display: none;">
+
+            <div class="d-flex align-items-end flex-column">
+              <div class="mt-auto bd-highlight">
+                <button class="mr-4" id="btn3" href="#">
+                  <i class="fas fa-arrow-circle-left fa-5x"></i>
+                </button>
+              </div>
+            </div>
+
+
+            <!-- All the content for case study goes here -->
+            <div class="container-fluid casestudy">
+
+              <section class="casestudysection" id="problemsection">
+
+                <div class="row">
+                  <div class="col">
+                    <h1 style="letter-spacing: 2px;" class="text-center text-nowrap font-weight-bold mt-4">
+                      SketchNote
+                    </h1>
+
+                    <h2 class="font-weight-bold mt-4 pt-4">Problem</h2>
+                    <blockquote>
+                      Why is becoming an entrepreneur so hard? What is the path? Is there a right education for it?
+                    </blockquote>
+
+                    <p style="margin-top: 1.2em; margin-bottom: 1.1em;" class="text-center">
+                    <mark>  With so much information available on startups and entrepreneurship still this 
+                      skill is hard to learn.</mark>
+                    </p>
+
+                    <h2 class="font-weight-bold mt-2 pt-2">Approach</h2>
+                    <p class="problemsectionpara">
+                        Followed Google Design Sprint, a five day process for designing 
+                        the solution for problem, prototyping and testing ideas.
+                    </p>
+
+                  </div>
+                </div>
+
+                <!-- End of problem section -->
+              </section>
+
+              <section class="casestudysection" id="MyRole">
+
+                <div class="container-fluid">
+                  <h1 class="mt-4 font-weight-bold text-center">My Role</h1>
+                </div>
+
+                <div class="text-justify container-fluid mt-4 mb-4">
+                    <dl class="row">
+                      <dt class="col-sm-3">Member of Sprint team</dt>
+                      <dd class="col-sm-9">During the course of sprint participated in various brainstorming activities
+                        like "How Might We", "Sketching" and "Prototyping".
+                      </dd>   
+                      <dt class="col-sm-3">Prototyping</dt>
+                      <dd class="col-sm-9">Worked with team to create a paper based prototype.
+                      </dd>       
+                      <dt class="col-sm-3">Interviewing</dt>
+                      <dd class="col-sm-9">Interviewing customer on final day with a interactive prototype.
+                      </dd>                     
+                    </dl>
+                </div>
+
+
+
+              </section>
+
+              <section class="casestudysection" id="Prototype">
+
+                <div class="container-fluid">
+                  <h1 class="mt-4 font-weight-bold text-center">Prototype</h1>
+                </div>
+
+                <div style="margin-top: 30px;" class="embed-responsive embed-responsive-16by9">
+                  <video controls="true" class="embed-responsive-item">
+                    <source src="img/SketchNotePrototype.ogv" type="video/mp4" />
+                  </video>
+                </div>
+
+                <div class="text-justify container-fluid mt-4 mb-4">
+                  <p>
+                    <a href="https://projects.invisionapp.com/share/TMRUPR9ZKQH#/screens">
+                    Invision link to prototype</a>
+                 </p>
+                </div>
+
+              </section>
+
+              <section class="casestudysection" id="Conclusion">
+
+                <div class="container-fluid">
+                  <h1 class="mt-4 font-weight-bold text-center">Conclusion</h1>
+                </div>
+
+
+
+                <div class="text-justify container-fluid mt-4 mb-4">
+                  <p>
+                   This was my first design thinking exercise. We were able to 
+                   put up a solution to the problem in a week time.  The response to prototype was mixed.  
+                   Some entrepreneurs liked it and some were not in favor of it. The content 
+                   we prepared in design sprint was narrow. More design sprints will be 
+                   conducted to further evolve the idea and prototype.
+                  </p>
+                </div>
+
+
+
+              </section>
+
+              <div class="scrolltop-wrap">
+                <a href="#" onclick="topFunction()" role="button" aria-label="Scroll to top">
+                  <svg height="48" viewBox="0 0 48 48" width="48" height="48px" xmlns="http://www.w3.org/2000/svg">
+                    <path id="scrolltop-bg" d="M0 0h48v48h-48z"></path>
+                    <path id="scrolltop-arrow" d="M14.83 30.83l9.17-9.17 9.17 9.17 2.83-2.83-12-12-12 12z"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <!-- SketchNote case study content ends here -->
+
+          </div>
+          <!--Details of SketchNote case study goes here - End-->
 
 
         </div>
@@ -1297,6 +1445,9 @@
     </div>
   </div>
   <!-- Modal - My Story End-->
+
+
+
 
 
   <!-- Optional JavaScript -->
