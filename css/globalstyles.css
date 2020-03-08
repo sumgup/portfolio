@@ -317,14 +317,7 @@ p b {
 }
 /* End  576px */
 
-/* Upto large size navbar will have a background color - i.e. 
-smaller devices will have background menu */
-@media (max-width: 992px) {
-    .navbar-collapse{
-        background-color:#2E2E32;
-        border-radius: 10px 10px 10px 10px; 
-    }
-}
+
 
 /* Special handling of card width for iPhone5 */
 
