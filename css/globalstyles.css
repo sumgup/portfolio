@@ -1,33 +1,30 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--HeadingFont);
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--HeadingFont);
+    text-shadow: 1px 2px 5px darkgrey;
 }
 
-p{
+.list-group-item, p {
     font-family: var(--ContentFont);
+    text-shadow: 0px 0px 1px gray;
 }
 
 .nav-link h2 {
-  font-family: var(--DecorationFont);
+    font-family: var(--DecorationFont);
     color: #C8CDD1;
     text-shadow: 2px 1px 1px #000;
-
 }
 
 /* Controls spacing between checkbox and text on right */
-.fas{
+
+.fas {
     margin-right: 4px;
 }
 
 /* Font size of iteam after fas - MY SKILLS */
-.list-group-item{
+
+.list-group-item {
     font-size: 1.3em;
 }
-
 
 #typedtext {
     font-family: var(--HeadingFont);
@@ -35,20 +32,8 @@ p{
     letter-spacing: 4px;
     font-weight: bold;
     line-height: 1.8em;
-  }
+}
 
-  @media (max-width: 576px) {
-    #typedtext {
-      font-family: var(--HeadingFont);
-      font-size: 1.2em;
-      letter-spacing: 3px;
-      font-weight: bold;
-      line-height: 1.8em;
-
-    }
-
-  }
-  
 .circledtext {
     display: block;
     width: 100px;
@@ -63,6 +48,8 @@ p{
     margin-left: 6px;
     margin-right: 6px;
     margin-bottom: 6px;
+    font-family: var(--ContentFont);
+    text-shadow: 2px 1px 1px #000;
 }
 
 .circledtext:hover {
@@ -71,11 +58,9 @@ p{
     background: #333
 }
 
-li.borderless{
-border: none;
-  }
-
-
+li.borderless {
+    border: none;
+}
 
 .problemsectionpara {
     font-size: 1.5em;
@@ -95,19 +80,19 @@ p {
     font-size: 1.15em;
 }
 
-dl{
+dl {
     font-family: var(--ContentFont);
 }
 
-dt{
+dt {
     font-family: var(--ContentFont);
-    font-size:1.3em;
+    font-size: 1.3em;
     line-height: 2em;
 }
 
-dd{
+dd {
     font-family: var(--ContentFont);
-    font-size:1.1em;
+    font-size: 1.1em;
 }
 
 blockquote {
@@ -167,7 +152,7 @@ p b {
     min-height: 130px;
     padding: 1em;
     max-width: 350px;
-} 
+}
 
 .carousel-caption {
     border-radius: 4px;
@@ -186,9 +171,6 @@ p b {
     height: 120vh;
 }
 
-
-
-
 .wiredcardp {
     font-family: var(--DecorationFont);
     font-size: 3.21em;
@@ -196,22 +178,21 @@ p b {
     line-height: 1.8em;
     color: black;
     text-align: center;
-} 
+    text-shadow: 1px 2px 5px lightgrey;
 
+}
 
-
- .stickynav {
+.stickynav {
     font-family: var(--DecorationFont);
     text-align: center;
     margin: 2em;
     transition: all .2s ease-in-out;
     min-width: 300px;
     min-height: 200px;
-} 
+}
 
-.casestudystickyp{
+.casestudystickyp {
     font-family: var(--DecorationFont);
-
 }
 
 /* Handling sizes small*/
@@ -255,7 +236,6 @@ p b {
         margin-right: 0.2em;
         padding: 0.8em;
     }
-
     .sticky {
         font-family: var(--DecorationFont);
         font-size: 1em;
@@ -264,8 +244,7 @@ p b {
         max-width: 350px;
         margin-top: 1.8em;
         margin-bottom: 0.5em;
-    } 
-
+    }
     .carousel-caption {
         border-radius: 4px;
         background: #2B2D2FD9;
@@ -290,39 +269,36 @@ p b {
         font-size: 2.5em;
         line-height: 1em;
         color: black;
+        text-shadow: 1px 2px 5px lightgrey;
     }
-
-
-
-     .stickynav {
+    .stickynav {
         font-family: var(--DecorationFont);
         text-align: center;
         margin: 2em;
         transition: all .2s ease-in-out;
         min-width: 200px;
         min-height: 100px;
-    } 
+    }
     #contact {
         font-size: 0.94em;
     }
-
-    .casestudystickyp{
+    .casestudystickyp {
         font-family: var(--DecorationFont);
         font-size: 1em;
         text-align: center;
         transition: all .2s ease-in-out;
-
     }
-   
 }
+
 /* End  576px */
 
 /* Upto large size navbar will have a background color - i.e. 
 smaller devices will have background menu */
+
 @media (max-width: 992px) {
-    .navbar-collapse{
-        background-color:#2E2E32;
-        border-radius: 10px 10px 10px 10px; 
+    .navbar-collapse {
+        background-color: #2E2E32;
+        border-radius: 10px 10px 10px 10px;
     }
 }
 
@@ -333,6 +309,4 @@ smaller devices will have background menu */
         font-size: 0.6em;
         line-height: 0.9em;
     }
-
-   
-} 
+}
