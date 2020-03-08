@@ -16,7 +16,15 @@ p{
     color: #C8CDD1;
 }
 
+/* Controls spacing between checkbox and text on right */
+.fas{
+    margin-right: 4px;
+}
 
+/* Font size of iteam after fas - MY SKILLS */
+.list-group-item{
+    font-size: 1.3em;
+}
 
 
 #typedtext {
