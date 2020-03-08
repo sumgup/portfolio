@@ -14,6 +14,8 @@ p{
 .nav-link h2 {
   font-family: var(--DecorationFont);
     color: #C8CDD1;
+    text-shadow: 2px 1px 1px #000;
+
 }
 
 /* Controls spacing between checkbox and text on right */
@@ -289,9 +291,9 @@ p b {
         line-height: 1em;
         color: black;
     }
-    .navbar-links li {
-        margin: 0.2em;
-    }
+
+
+
      .stickynav {
         font-family: var(--DecorationFont);
         text-align: center;
@@ -319,7 +321,8 @@ p b {
 smaller devices will have background menu */
 @media (max-width: 992px) {
     .navbar-collapse{
-        background-color:#CAC2BD;
+        background-color:#2E2E32;
+        border-radius: 10px 10px 10px 10px; 
     }
 }
 
