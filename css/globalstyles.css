@@ -11,12 +11,12 @@ p{
     font-family: var(--ContentFont);
 }
 
-
-
 .nav-link h2 {
   font-family: var(--DecorationFont);
-
+    color: #C8CDD1;
 }
+
+
 
 
 #typedtext {
