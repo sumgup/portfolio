@@ -2,8 +2,9 @@
  * Solarized Light theme for reveal.js.
  * Author: Achim Staebler
  */
- /* @import url(https://fonts.googleapis.com/css2?family=Permanent+Marker); */
+  
  @import url(https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400);
+ @import url(https://fonts.googleapis.com/css2?family=Permanent+Marker); 
  /**
   * Solarized colors by Ethan Schoonover
   */
@@ -18,6 +19,20 @@
   width: 30px;
   height: 30px;
 }
+
+.slidecontainer{
+  background-color: whitesmoke;
+  padding: 15px;
+  border-radius: 15px;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+.highlighter{
+  font-family: "Permanent Marker", sans-serif;
+  font-size: 24px;
+}
+
  /*********************************************
   * GLOBAL STYLES
   *********************************************/
@@ -85,15 +100,17 @@
   *********************************************/
  .reveal p {
    color: black;
-   margin: 20px 0;
-   line-height: 1.3; }
+   margin-top: 15px;
+   line-height: 1.1; }
  
  /* Ensure certain elements are never larger than the slide itself */
  .reveal img,
  .reveal video,
  .reveal iframe {
    max-width: 95%;
-   max-height: 95%; }
+   max-height: 95%;
+    margin-top: 15px;
+  }
  
  .reveal strong,
  .reveal b {
