@@ -24,8 +24,8 @@
   background-color: whitesmoke;
   padding: 15px;
   border-radius: 15px;
-  min-width: 200px;
-  min-height: 200px;
+  min-width: 800px;
+  min-height: 500px;
 }
 
 .highlighter{
@@ -37,9 +37,12 @@
   padding: 20px;
   background-color: black;
   color: white;
-  font-size: 22px;
+  font-size: 28px;
   font-weight: bolder;
+  border: none;
+  margin-top: 10px;
 }
+
 
  /*********************************************
   * GLOBAL STYLES
