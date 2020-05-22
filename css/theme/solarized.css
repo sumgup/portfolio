@@ -43,6 +43,17 @@
   margin-top: 10px;
 }
 
+.path381 {
+  stroke-dasharray: 100;
+  animation: dash 5s linear infinite;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 1000;
+  }
+}
+
 
  /*********************************************
   * GLOBAL STYLES
