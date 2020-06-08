@@ -19,7 +19,7 @@
       "timeoutEnable": false,
       "transitionDurationMs": 1000,
       "showInFrameList": true,
-      "showFrameNumber": true,
+      "showFrameNumber": false,
       "layerProperties": {
         "layer1": {
           "link": false,
@@ -225,7 +225,7 @@
       "timeoutEnable": false,
       "transitionDurationMs": 1200,
       "showInFrameList": true,
-      "showFrameNumber": true,
+      "showFrameNumber": false,
       "layerProperties": {
         "layer1": {
           "link": false,
@@ -431,7 +431,7 @@
       "timeoutEnable": false,
       "transitionDurationMs": 1200,
       "showInFrameList": true,
-      "showFrameNumber": true,
+      "showFrameNumber": false,
       "layerProperties": {
         "layer1": {
           "link": false,
@@ -637,7 +637,7 @@
       "timeoutEnable": false,
       "transitionDurationMs": 1200,
       "showInFrameList": true,
-      "showFrameNumber": true,
+      "showFrameNumber": false,
       "layerProperties": {
         "layer1": {
           "link": false,
@@ -843,7 +843,7 @@
       "timeoutEnable": false,
       "transitionDurationMs": 1200,
       "showInFrameList": true,
-      "showFrameNumber": true,
+      "showFrameNumber": false,
       "layerProperties": {
         "layer1": {
           "link": false,
@@ -1049,7 +1049,7 @@
       "timeoutEnable": false,
       "transitionDurationMs": 1200,
       "showInFrameList": true,
-      "showFrameNumber": true,
+      "showFrameNumber": false,
       "layerProperties": {
         "layer1": {
           "link": false,
@@ -1255,7 +1255,7 @@
       "timeoutEnable": false,
       "transitionDurationMs": 1200,
       "showInFrameList": true,
-      "showFrameNumber": true,
+      "showFrameNumber": false,
       "layerProperties": {
         "layer1": {
           "link": false,
@@ -1461,7 +1461,7 @@
       "timeoutEnable": false,
       "transitionDurationMs": 1200,
       "showInFrameList": true,
-      "showFrameNumber": true,
+      "showFrameNumber": false,
       "layerProperties": {
         "layer1": {
           "link": false,
@@ -1667,7 +1667,7 @@
       "timeoutEnable": false,
       "transitionDurationMs": 1200,
       "showInFrameList": true,
-      "showFrameNumber": true,
+      "showFrameNumber": false,
       "layerProperties": {
         "layer1": {
           "link": false,
@@ -1873,7 +1873,7 @@
       "timeoutEnable": false,
       "transitionDurationMs": 1000,
       "showInFrameList": true,
-      "showFrameNumber": true,
+      "showFrameNumber": false,
       "layerProperties": {
         "layer1": {
           "link": false,
@@ -2079,7 +2079,7 @@
       "timeoutEnable": false,
       "transitionDurationMs": 1200,
       "showInFrameList": true,
-      "showFrameNumber": true,
+      "showFrameNumber": false,
       "layerProperties": {
         "layer1": {
           "link": false,
@@ -2285,7 +2285,7 @@
       "timeoutEnable": false,
       "transitionDurationMs": 1200,
       "showInFrameList": true,
-      "showFrameNumber": true,
+      "showFrameNumber": false,
       "layerProperties": {
         "layer1": {
           "link": false,
@@ -2491,7 +2491,7 @@
       "timeoutEnable": false,
       "transitionDurationMs": 1300,
       "showInFrameList": true,
-      "showFrameNumber": true,
+      "showFrameNumber": false,
       "layerProperties": {
         "layer1": {
           "link": false,
@@ -2697,7 +2697,7 @@
       "timeoutEnable": false,
       "transitionDurationMs": 1200,
       "showInFrameList": true,
-      "showFrameNumber": true,
+      "showFrameNumber": false,
       "layerProperties": {
         "layer1": {
           "link": false,
@@ -2903,7 +2903,7 @@
       "timeoutEnable": false,
       "transitionDurationMs": 1300,
       "showInFrameList": true,
-      "showFrameNumber": true,
+      "showFrameNumber": false,
       "layerProperties": {
         "layer1": {
           "link": false,
@@ -3107,9 +3107,9 @@
       "notes": "",
       "timeoutMs": 0,
       "timeoutEnable": false,
-      "transitionDurationMs": 1200,
+      "transitionDurationMs": 2000,
       "showInFrameList": true,
-      "showFrameNumber": true,
+      "showFrameNumber": false,
       "layerProperties": {
         "layer1": {
           "link": false,
@@ -3309,7 +3309,7 @@
   ],
   "elementsToHide": [],
   "selectedFrames": [
-    "frame2023"
+    "frame4111"
   ],
   "selectedLayers": [
     "layer1",
