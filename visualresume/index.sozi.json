@@ -2292,7 +2292,7 @@
           "referenceElementId": "path161",
           "outlineElementId": "",
           "transitionTimingFunction": "easeInOut",
-          "transitionRelativeZoom": -2,
+          "transitionRelativeZoom": -1,
           "transitionPathId": ""
         },
         "layer2": {
@@ -2300,7 +2300,7 @@
           "referenceElementId": "path62",
           "outlineElementId": "",
           "transitionTimingFunction": "easeInOut",
-          "transitionRelativeZoom": -2,
+          "transitionRelativeZoom": -1,
           "transitionPathId": ""
         },
         "layer4": {
@@ -2308,7 +2308,7 @@
           "referenceElementId": "path1112",
           "outlineElementId": "",
           "transitionTimingFunction": "easeInOut",
-          "transitionRelativeZoom": -2,
+          "transitionRelativeZoom": -1,
           "transitionPathId": ""
         },
         "layer5": {
@@ -2316,7 +2316,7 @@
           "referenceElementId": "path1112-3",
           "outlineElementId": "",
           "transitionTimingFunction": "easeInOut",
-          "transitionRelativeZoom": -2,
+          "transitionRelativeZoom": -1,
           "transitionPathId": ""
         },
         "layer6": {
@@ -2324,7 +2324,7 @@
           "referenceElementId": "path1112-3-1",
           "outlineElementId": "",
           "transitionTimingFunction": "easeInOut",
-          "transitionRelativeZoom": -2,
+          "transitionRelativeZoom": -1,
           "transitionPathId": ""
         },
         "layer7": {
@@ -2332,7 +2332,7 @@
           "referenceElementId": "path1112-3-1-3",
           "outlineElementId": "",
           "transitionTimingFunction": "easeInOut",
-          "transitionRelativeZoom": -2,
+          "transitionRelativeZoom": -1,
           "transitionPathId": ""
         },
         "__sozi_auto__": {
@@ -2340,7 +2340,7 @@
           "referenceElementId": "",
           "outlineElementId": "",
           "transitionTimingFunction": "easeInOut",
-          "transitionRelativeZoom": -2,
+          "transitionRelativeZoom": -1,
           "transitionPathId": ""
         }
       },
@@ -2704,7 +2704,7 @@
           "referenceElementId": "path161",
           "outlineElementId": "",
           "transitionTimingFunction": "easeInOut",
-          "transitionRelativeZoom": 0.2,
+          "transitionRelativeZoom": -1,
           "transitionPathId": ""
         },
         "layer2": {
@@ -2712,7 +2712,7 @@
           "referenceElementId": "rect25",
           "outlineElementId": "",
           "transitionTimingFunction": "easeInOut",
-          "transitionRelativeZoom": 0.2,
+          "transitionRelativeZoom": -1,
           "transitionPathId": ""
         },
         "layer4": {
@@ -2720,7 +2720,7 @@
           "referenceElementId": "path1112",
           "outlineElementId": "",
           "transitionTimingFunction": "easeInOut",
-          "transitionRelativeZoom": 0,
+          "transitionRelativeZoom": -1,
           "transitionPathId": ""
         },
         "layer5": {
@@ -2728,7 +2728,7 @@
           "referenceElementId": "path1112-3",
           "outlineElementId": "",
           "transitionTimingFunction": "easeInOut",
-          "transitionRelativeZoom": 0.2,
+          "transitionRelativeZoom": -1,
           "transitionPathId": ""
         },
         "layer6": {
@@ -2736,7 +2736,7 @@
           "referenceElementId": "path1112-3-1",
           "outlineElementId": "",
           "transitionTimingFunction": "easeInOut",
-          "transitionRelativeZoom": 0.2,
+          "transitionRelativeZoom": -1,
           "transitionPathId": ""
         },
         "layer7": {
@@ -2744,7 +2744,7 @@
           "referenceElementId": "path1112-3-1-3",
           "outlineElementId": "",
           "transitionTimingFunction": "easeInOut",
-          "transitionRelativeZoom": 0.2,
+          "transitionRelativeZoom": -1,
           "transitionPathId": ""
         },
         "__sozi_auto__": {
@@ -2752,7 +2752,7 @@
           "referenceElementId": "",
           "outlineElementId": "",
           "transitionTimingFunction": "easeInOut",
-          "transitionRelativeZoom": 0.2,
+          "transitionRelativeZoom": -1,
           "transitionPathId": ""
         }
       },
@@ -3309,7 +3309,7 @@
   ],
   "elementsToHide": [],
   "selectedFrames": [
-    "frame4111"
+    "frame2023"
   ],
   "selectedLayers": [
     "layer1",
