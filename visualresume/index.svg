@@ -221,11 +221,11 @@
      units="px"
      showgrid="false"
      inkscape:document-rotation="0"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="layer6"
      inkscape:document-units="px"
-     inkscape:cy="666.86127"
-     inkscape:cx="1327.3048"
-     inkscape:zoom="0.98994952"
+     inkscape:cy="274.65864"
+     inkscape:cx="499.80641"
+     inkscape:zoom="0.35000001"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -391,8 +391,8 @@
     <path
        sodipodi:nodetypes="ccccc"
        id="path1112-3-1"
-       d="m 16.724147,78.347959 5.834634,18.851369 -2.240425,28.393702 6.666843,18.43776 1.601772,8.85747"
-       style="opacity:0.74;fill:none;stroke:#000000;stroke-width:3.93217;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:1;stroke-dasharray:1.96608, 1.96608000000000005;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#DotS-3-5);marker-end:url(#TriangleOutM-7-2);paint-order:normal" />
+       d="m 16.724147,78.347959 6.412414,23.538371 -2.462285,35.45321 7.327034,23.02193 1.760389,11.0597"
+       style="opacity:0.74;fill:none;stroke:#000000;stroke-width:4.60631;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:1;stroke-dasharray:2.30315, 2.30315;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#DotS-3-5);marker-end:url(#TriangleOutM-7-2);paint-order:normal" />
   </g>
   <g
      style="display:inline;opacity:0.3"
